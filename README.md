@@ -1,4 +1,4 @@
-<div color:black; background-color: rgb(255, 255, 255);">
+<div style="background-color:#f0f0f0;color:rgb(2, 62, 73) ;padding:20px; border-radius:15px;">
 <h1>💫 About Me</h1>
 <p>• Currently learning <strong>Machine Learning</strong> and exploring how AI can solve real-world problems.<br></p>
 <p>• Passionate about <strong>Data Science</strong> and AI-driven solutions.<br></p>
