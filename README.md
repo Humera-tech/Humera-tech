@@ -6,7 +6,7 @@
  
 <h2>🌐 Socials</h2>
 <p>
-  <a href="https://linkedin.com/in/Humera Mahreen">
+  <a href="https://linkedin.com/in/Humera Mahreen](https://www.linkedin.com/in/humera-mahreen-958765329  ">
     <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
   <a href="mailto:hmahreen3105@gmail.com">
