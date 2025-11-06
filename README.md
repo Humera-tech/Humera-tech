@@ -34,7 +34,7 @@
 </p>
 <div  align="center">
 <p >
-<img src="https://cdn.dribbble.com/userupload/33219605/file/original-3e652baea723121800ca0068452af00e.gif" style="height: 400px;width: 500px;border-radius: 50%;">
+<img src="https://cdn.dribbble.com/userupload/33219605/file/original-3e652baea723121800ca0068452af00e.gif" style="height: 400px;width: 500px;">
 </p>
 
 <h2 >📊 GitHub Stats</h2>
