@@ -1,8 +1,8 @@
 <div color:black; background-color: rgb(255, 255, 255);">
 <h1>💫 About Me</h1>
-<p>•Currently learning <strong>Machine Learning</strong> and exploring how AI can solve real-world problems.<br></p>
-<p>•Passionate about <strong>Data Science</strong> and AI-driven solutions.<br></p>
-<p>•Always curious, always learning. </p>
+<p>• Currently learning <strong>Machine Learning</strong> and exploring how AI can solve real-world problems.<br></p>
+<p>• Passionate about <strong>Data Science</strong> and AI-driven solutions.<br></p>
+<p>• Always curious, always learning. </p>
  
 <h2>🌐 Socials</h2>
 <p>
