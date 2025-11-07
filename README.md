@@ -38,13 +38,14 @@
 </p>
 
 <h2>📊 GitHub Stats</h2>
-<div style="display: flex; justify-content: center; align-items: center; gap: 10px; flex-wrap: wrap; margin: -5px;">
+<div style="display: flex; justify-content: center; align-items: center; gap: 20px; flex-wrap: wrap; ">
   <img src="https://github-readme-stats.vercel.app/api?username=Humera-tech&theme=dark&hide_border=false&include_all_commits=false&count_private=false" alt="GitHub Stats"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Humera-tech&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact" alt="Top Languages"/>
+  <img src="https://nirzak-streak-stats.vercel.app/?user=Humera-tech&theme=dark&hide_border=false" alt="GitHub Streak"/>
 </div>
 
-<div style="display: flex; justify-content: center; margin-top: 10px;">
-  <img src="https://nirzak-streak-stats.vercel.app/?user=Humera-tech&theme=dark&hide_border=false" alt="GitHub Streak"/>
+<div style="display: flex; justify-content: center; margin-top: 20px;">
+   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Humera-tech&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact" alt="Top Languages"/>
+
 </div>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=humera-tech&label=Profile%20views&color=0e75b6&style=flat" alt="humera-tech" /> </p>
 </div>
