@@ -1,8 +1,8 @@
 <div style="background-color:#f0f0f0;color:rgb(2, 62, 73) ;padding:20px; border-radius:15px;">
 <h1>💫 About Me</h1>
+<p>• A tech enthusiast with a love for solving problems</p> 
 <p>• Currently learning <strong>Machine Learning</strong> and exploring how AI can solve real-world problems.<br></p>
 <p>• Passionate about <strong>Data Science</strong> and AI-driven solutions.<br></p>
-<p>• Always curious, always learning. </p>
  
 <h2>🌐 Socials</h2>
 <p>
