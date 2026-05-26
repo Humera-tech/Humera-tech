@@ -1,0 +1,204 @@
+<svg width="1200" height="280" viewBox="0 0 1200 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#faf5ff"/>
+      <stop offset="50%" stop-color="#f3e8ff"/>
+      <stop offset="100%" stop-color="#ede9fe"/>
+    </linearGradient>
+
+    <!-- Glow gradient for orbs -->
+    <radialGradient id="orb1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#c084fc" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#c084fc" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orb2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#818cf8" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orb3" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#e879f9" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#e879f9" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Text gradient -->
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="50%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+
+    <!-- Shimmer gradient -->
+    <linearGradient id="shimmer" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="transparent"/>
+      <stop offset="40%" stop-color="rgba(255,255,255,0.6)"/>
+      <stop offset="100%" stop-color="transparent"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="-1200 0" to="1200 0" dur="3s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <!-- Grid pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#a855f7" stroke-width="0.3" stroke-opacity="0.2"/>
+    </pattern>
+
+    <!-- Noise filter -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <clipPath id="roundedRect">
+      <rect width="1200" height="280" rx="16" ry="16"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="280" rx="16" fill="url(#bgGrad)"/>
+  <rect width="1200" height="280" rx="16" fill="url(#grid)"/>
+
+  <!-- Animated orbs -->
+  <ellipse cx="120" cy="60" rx="180" ry="160" fill="url(#orb1)" filter="url(#glow)">
+    <animateTransform attributeName="transform" type="translate" values="0,0; 20,15; 0,0" dur="7s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="1100" cy="220" rx="200" ry="160" fill="url(#orb2)" filter="url(#glow)">
+    <animateTransform attributeName="transform" type="translate" values="0,0; -15,10; 0,0" dur="9s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="600" cy="280" rx="220" ry="120" fill="url(#orb3)" filter="url(#glow)">
+    <animateTransform attributeName="transform" type="translate" values="0,0; 10,-20; 0,0" dur="11s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- Decorative dots grid top-right -->
+  <g opacity="0.35">
+    <circle cx="1000" cy="30" r="2" fill="#a855f7"/>
+    <circle cx="1020" cy="30" r="2" fill="#a855f7"/>
+    <circle cx="1040" cy="30" r="2" fill="#a855f7"/>
+    <circle cx="1060" cy="30" r="2" fill="#a855f7"/>
+    <circle cx="1080" cy="30" r="2" fill="#a855f7"/>
+    <circle cx="1000" cy="50" r="2" fill="#a855f7"/>
+    <circle cx="1020" cy="50" r="2" fill="#a855f7"/>
+    <circle cx="1040" cy="50" r="2" fill="#a855f7"/>
+    <circle cx="1060" cy="50" r="2" fill="#a855f7"/>
+    <circle cx="1080" cy="50" r="2" fill="#a855f7"/>
+    <circle cx="1000" cy="70" r="2" fill="#a855f7"/>
+    <circle cx="1020" cy="70" r="2" fill="#a855f7"/>
+    <circle cx="1040" cy="70" r="2" fill="#a855f7"/>
+    <circle cx="1060" cy="70" r="2" fill="#a855f7"/>
+    <circle cx="1080" cy="70" r="2" fill="#a855f7"/>
+    <circle cx="1100" cy="30" r="2" fill="#a855f7"/>
+    <circle cx="1120" cy="30" r="2" fill="#a855f7"/>
+    <circle cx="1140" cy="30" r="2" fill="#a855f7"/>
+    <circle cx="1160" cy="30" r="2" fill="#a855f7"/>
+    <circle cx="1180" cy="30" r="2" fill="#a855f7"/>
+    <circle cx="1100" cy="50" r="2" fill="#a855f7"/>
+    <circle cx="1120" cy="50" r="2" fill="#a855f7"/>
+    <circle cx="1100" cy="70" r="2" fill="#a855f7"/>
+    <circle cx="1120" cy="70" r="2" fill="#a855f7"/>
+  </g>
+
+  <!-- Decorative dots bottom-left -->
+  <g opacity="0.25">
+    <circle cx="40" cy="210" r="2" fill="#7c3aed"/>
+    <circle cx="60" cy="210" r="2" fill="#7c3aed"/>
+    <circle cx="80" cy="210" r="2" fill="#7c3aed"/>
+    <circle cx="40" cy="230" r="2" fill="#7c3aed"/>
+    <circle cx="60" cy="230" r="2" fill="#7c3aed"/>
+    <circle cx="80" cy="230" r="2" fill="#7c3aed"/>
+    <circle cx="40" cy="250" r="2" fill="#7c3aed"/>
+    <circle cx="60" cy="250" r="2" fill="#7c3aed"/>
+    <circle cx="80" cy="250" r="2" fill="#7c3aed"/>
+  </g>
+
+  <!-- Floating particles -->
+  <circle cx="200" cy="200" r="3" fill="#c084fc" opacity="0.6">
+    <animate attributeName="cy" values="200;185;200" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="950" cy="80" r="2.5" fill="#818cf8" opacity="0.5">
+    <animate attributeName="cy" values="80;65;80" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;0.9;0.5" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="700" cy="50" r="2" fill="#e879f9" opacity="0.5">
+    <animate attributeName="cy" values="50;38;50" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="400" cy="240" r="3" fill="#a855f7" opacity="0.4">
+    <animate attributeName="cy" values="240;225;240" dur="7s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Horizontal line accent -->
+  <line x1="80" y1="178" x2="520" y2="178" stroke="url(#textGrad)" stroke-width="1" stroke-opacity="0.3"/>
+
+  <!-- Bracket decorations -->
+  <text x="68" y="110" font-family="monospace" font-size="72" fill="#a855f7" opacity="0.12" font-weight="bold">{</text>
+  <text x="1110" y="230" font-family="monospace" font-size="72" fill="#6366f1" opacity="0.1" font-weight="bold">}</text>
+
+  <!-- Main content group with fade-in -->
+  <g>
+    <animate attributeName="opacity" values="0;1" dur="1.2s" fill="freeze"/>
+
+    <!-- Greeting label pill -->
+    <rect x="80" y="46" width="140" height="26" rx="13" fill="#7c3aed" fill-opacity="0.12"/>
+    <text x="150" y="63" font-family="'Segoe UI', system-ui, sans-serif" font-size="12" fill="#7c3aed" font-weight="600" text-anchor="middle" letter-spacing="1.5">✦ HELLO WORLD</text>
+
+    <!-- Main name -->
+    <text x="80" y="130" font-family="'Segoe UI', Georgia, serif" font-size="58" font-weight="700" fill="url(#textGrad)" letter-spacing="-1">
+      Humera Mahreen
+    </text>
+
+    <!-- Shimmer overlay on name -->
+    <rect x="80" y="78" width="620" height="60" fill="url(#shimmer)" rx="4"/>
+
+    <!-- Role / tagline -->
+    <text x="82" y="162" font-family="'Segoe UI', system-ui, sans-serif" font-size="17" fill="#6d28d9" font-weight="400" letter-spacing="0.3" opacity="0.85">
+      ML Explorer · Data Science · AI-Driven Solutions
+    </text>
+
+    <!-- Status badge -->
+    <rect x="82" y="192" width="196" height="30" rx="6" fill="#7c3aed" fill-opacity="0.08" stroke="#a855f7" stroke-width="0.8" stroke-opacity="0.4"/>
+    <circle cx="101" cy="207" r="5" fill="#22c55e">
+      <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="113" y="212" font-family="'Segoe UI', system-ui, sans-serif" font-size="12" fill="#6d28d9" font-weight="500">Currently learning ML 🚀</text>
+
+    <!-- Location badge -->
+    <rect x="290" y="192" width="148" height="30" rx="6" fill="#7c3aed" fill-opacity="0.08" stroke="#a855f7" stroke-width="0.8" stroke-opacity="0.4"/>
+    <text x="364" y="212" font-family="'Segoe UI', system-ui, sans-serif" font-size="12" fill="#6d28d9" font-weight="500" text-anchor="middle">📍 Hyderabad, IN</text>
+  </g>
+
+  <!-- Right side: decorative code snippet -->
+  <g opacity="0.0">
+    <animate attributeName="opacity" values="0;0.9" dur="1.8s" fill="freeze"/>
+  </g>
+  <g>
+    <animate attributeName="opacity" values="0;1" dur="2s" fill="freeze"/>
+    <rect x="780" y="70" width="350" height="148" rx="10" fill="#4c1d95" fill-opacity="0.07" stroke="#a855f7" stroke-width="0.8" stroke-opacity="0.3"/>
+
+    <!-- Code window dots -->
+    <circle cx="804" cy="90" r="5" fill="#f87171" opacity="0.8"/>
+    <circle cx="822" cy="90" r="5" fill="#fbbf24" opacity="0.8"/>
+    <circle cx="840" cy="90" r="5" fill="#4ade80" opacity="0.8"/>
+
+    <!-- Code lines -->
+    <text x="800" y="118" font-family="'Courier New', monospace" font-size="12.5" fill="#7c3aed" opacity="0.9">
+      <tspan fill="#a855f7">class</tspan>
+      <tspan fill="#6d28d9"> Humera</tspan>
+      <tspan fill="#a855f7">:</tspan>
+    </text>
+    <text x="800" y="136" font-family="'Courier New', monospace" font-size="12.5" fill="#7c3aed" opacity="0.85">
+      <tspan fill="#6366f1">  passion </tspan><tspan fill="#a855f7">= </tspan><tspan fill="#059669">"ML &amp; AI"</tspan>
+    </text>
+    <text x="800" y="154" font-family="'Courier New', monospace" font-size="12.5" fill="#7c3aed" opacity="0.85">
+      <tspan fill="#6366f1">  focus   </tspan><tspan fill="#a855f7">= </tspan><tspan fill="#059669">"Data Science"</tspan>
+    </text>
+    <text x="800" y="172" font-family="'Courier New', monospace" font-size="12.5" fill="#7c3aed" opacity="0.85">
+      <tspan fill="#6366f1">  goal    </tspan><tspan fill="#a855f7">= </tspan><tspan fill="#059669">"Build &amp; Solve"</tspan>
+    </text>
+    <text x="800" y="192" font-family="'Courier New', monospace" font-size="12.5" fill="#a855f7" opacity="0.7">
+      <tspan>  </tspan><tspan fill="#c084fc">▌</tspan>
+      <animate attributeName="opacity" values="0.7;0;0.7" dur="1.2s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <!-- Bottom border line with gradient -->
+  <rect x="0" y="272" width="1200" height="4" rx="2" fill="url(#textGrad)" opacity="0.5"/>
+  <rect x="0" y="272" width="1200" height="4" rx="2" fill="url(#shimmer)"/>
+</svg>
