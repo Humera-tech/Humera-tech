@@ -13,7 +13,7 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=3000&pause=800&color=A855F7&center=true&vCenter=true&width=650&lines=Turning+data+into+decisions+%F0%9F%A7%A0;Building+intelligent+solutions+with+ML+%F0%9F%A4%96;Bridging+the+gap+between+humans+and+AI+%F0%9F%8C%89;One+commit+at+a+time+%F0%9F%9A%80" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=3200&pause=900&color=A855F7&center=true&vCenter=true&width=750&lines=Building+intelligent+systems+with+AI+%F0%9F%A4%96;Applied+AI+%7C+Generative+AI+%7C+Agentic+AI;Turning+ideas+into+real-world+AI+applications+%F0%9F%9A%80;Learning+deeply+and+building+consistently+%F0%9F%8C%8C;Creating+AI-powered+solutions+for+real-world+problems" alt="Typing SVG" />
 
 </div>
 
