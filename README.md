@@ -13,7 +13,7 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=3200&pause=900&color=A855F7&center=true&vCenter=true&width=750&lines=Building+intelligent+systems+with+AI+%F0%9F%A4%96;Applied+AI+%7C+Generative+AI+%7C+Agentic+AI;Turning+ideas+into+real-world+AI+applications+%F0%9F%9A%80;Learning+deeply+and+building+consistently+%F0%9F%8C%8C;Creating+AI-powered+solutions+for+real-world+problems" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=3200&pause=900&color=A855F7&center=true&vCenter=true&width=850&lines=Building+intelligent+systems+with+AI;Applied+AI+%7C+Generative+AI+%7C+Agentic+AI;Turning+ideas+into+real-world+AI+applications;Learning+deeply+and+building+consistently;Creating+AI-powered+solutions+for+real-world+problems" alt="Typing SVG" />
 
 </div>
 
@@ -54,25 +54,53 @@ humera = {
 
 ## ✦ Tech Stack
 
-### 🤖 AI & Data Science
-![Python](https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=flat-square&logo=python&logoColor=white)
+<br>
 
-### 🌐 Web Development
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=flat-square&logo=javascript&logoColor=F7DF1E)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-8511FA?style=flat-square&logo=bootstrap&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
+<div align="center">
 
-### 🎨 Design & Deployment
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
-![Canva](https://img.shields.io/badge/Canva-00C4CC?style=flat-square&logo=Canva&logoColor=white)
-![Netlify](https://img.shields.io/badge/Netlify-000000?style=flat-square&logo=netlify&logoColor=00C7B7)
+### Applied AI & ML
 
+<img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow" />
+
+<br><br>
+
+<img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white" />
+<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
+<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
+
+<br>
+
+<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
+<img src="https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=python&logoColor=white" />
+
+</div>
+
+<br><br>
+
+<div align="center">
+
+### Frontend Development
+
+<img src="https://skillicons.dev/icons?i=html,css,js,tailwind,bootstrap,react" />
+
+</div>
+
+<br><br>
+
+<div align="center">
+
+### Tools & Deployment
+
+<img src="https://skillicons.dev/icons?i=docker,git,github,figma,vscode,netlify" />
+
+<br><br>
+
+<img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=000" />
+<img src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white" />
+
+</div>
+
+<br>
 ---
 
 ## ✦ GitHub Stats
