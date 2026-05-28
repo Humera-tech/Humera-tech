@@ -402,10 +402,10 @@
         <div class="glass-card">
           <div class="pill"><div class="dot-live"></div>Open to opportunities</div>
           <div class="name">Humera Mahreen</div>
-          <div class="tagline">ML Explorer &nbsp;·&nbsp; Data Science &nbsp;·&nbsp; AI-Driven Solutions</div>
+          <div class="tagline">Applied AI &#160;·&#160; GenAI &#160;·&#160; Agentic AI Explorer</div>
           <div class="badges">
             <div class="badge">🤖 Machine Learning</div>
-            <div class="badge">🧠 GenAI</div>
+            <div class="badge">✨ GenAI &amp; LLMs</div>
             <div class="badge">📍 Hyderabad, IN</div>
           </div>
         </div>
@@ -420,12 +420,12 @@
           </div>
           <div class="code-body">
             <div><span class="kw">class</span> <span class="cn">Humera</span><span class="op">:</span></div>
-            <div>&nbsp;&nbsp;<span class="cm"># ML Explorer 🚀</span></div>
-            <div>&nbsp;&nbsp;<span class="cn">passion</span> <span class="op">=</span> <span class="st">"ML &amp; GenAI"</span></div>
-            <div>&nbsp;&nbsp;<span class="cn">focus</span> &nbsp;&nbsp;<span class="op">=</span> <span class="st">"Data Science"</span></div>
-            <div>&nbsp;&nbsp;<span class="cn">goal</span> &nbsp;&nbsp;<span class="op">=</span> <span class="st">"Build &amp; Solve"</span></div>
-            <div>&nbsp;&nbsp;<span class="cn">city</span> &nbsp;&nbsp;<span class="op">=</span> <span class="st">"Hyderabad 🇮🇳"</span></div>
-            <div>&nbsp;&nbsp;<span class="cursor"></span></div>
+            <div>&#160;&#160;<span class="cm"># ML Explorer 🚀</span></div>
+            <div>&#160;&#160;<span class="cn">passion</span> <span class="op">=</span> <span class="st">"ML &amp; GenAI"</span></div>
+            <div>&#160;&#160;<span class="cn">focus</span> &#160;&#160;<span class="op">=</span> <span class="st">"GenAI &amp; LLMs"</span></div>
+            <div>&#160;&#160;<span class="cn">goal</span> &#160;&#160;<span class="op">=</span> <span class="st">"Build &amp; Solve"</span></div>
+            <div>&#160;&#160;<span class="cn">city</span> &#160;&#160;<span class="op">=</span> <span class="st">"Hyderabad 🇮🇳"</span></div>
+            <div>&#160;&#160;<span class="cursor"></span></div>
           </div>
         </div>
 
