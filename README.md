@@ -144,7 +144,11 @@ humera = {
 
 <div align="center">
 
-![LeetCode Stats](https://leetcard.jacoblin.cool/HumeraMahreen?theme=dark&font=JetBrains+Mono&ext=heatmap)
+<img src="https://img.shields.io/badge/LeetCode-Problem_Solving-7c3aed?style=for-the-badge&logo=leetcode&logoColor=white" />
+
+<br><br>
+
+[![LeetCode Stats](https://leetcard.jacoblin.cool/HumeraMahreen?font=JetBrains+Mono&ext=heatmap&width=500&border=0&radius=12&colors=0c0620,130d2e,c084fc,e9d5ff,22c55e,a855f7,818cf8,6366f1)](https://leetcode.com/HumeraMahreen)
 
 </div>
 
