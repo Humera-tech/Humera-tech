@@ -1,8 +1,13 @@
-<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./header-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./header.svg">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6A0DAD,100:A855F7&height=200&section=header&text=Humera%20Mahreen&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=ML%20Explorer%20%7C%20AI%20Enthusiast%20%7C%20Problem%20Solver&descAlignY=58&descSize=16&animation=fadeIn" />
-
-</div>
+  <img 
+    alt="Humera Mahreen | ML Explorer | AI Enthusiast"
+    src="./header-dark.svg"
+    width="100%"
+  />
+</picture>
 
 <br/>
 
@@ -18,18 +23,20 @@
 
 ```python
 humera = {
-    "role"       : "Tech Enthusiast & ML Explorer",
-    "learning"   : ["Machine Learning", "Data Science", "AI Systems"],
-    "building"   : "AI-driven solutions for real-world problems",
-    "belief"     : "Every dataset has a story worth telling",
-    "contact"    : "hmahreen3105@gmail.com"
+    "role": "Applied AI & ML Explorer",
+    "focus": "Learning GenAI systems and building AI/ML projects",
+    "learning": ["Machine Learning", "Deep Learning", "LLMs basics"],
+    "interests": ["Applied AI", "GenAI", "Agentic AI (exploring)"],
+    "currently_building": "small AI/ML projects using Python and LLM APIs",
+    "stack": ["Python", "basic ML libraries", "LLM APIs"],
+    "mindset": "Learn deeply • Build consistently • Improve step by step"
 }
 ```
 
-- 🔭 Currently diving deep into **Machine Learning** algorithms and applications
-- 🌱 Exploring how **AI can solve real-world problems** across industries
-- 💡 Passionate about **Data Science**, visualization, and intelligent systems
-- 🎯 Goal: Build impactful, data-driven products that make a difference
+-  Passionate about building intelligent systems using AI & Machine Learning
+- Currently building ML + GenAI projects while improving deployment and system design skills
+- Focused on creating projects that combine technology, usability, and impact
+- Continuously learning through hands-on projects and experimentation
 
 ---
 
