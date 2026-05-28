@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 120" width="860" height="120">
+  <defs>
+    <linearGradient id="waveGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#050210"/>
+      <stop offset="40%" stop-color="#0c0620"/>
+      <stop offset="100%" stop-color="#060215"/>
+    </linearGradient>
+    <linearGradient id="waveGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.5"/>
+      <stop offset="50%" stop-color="#a855f7" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0.5"/>
+    </linearGradient>
+    <linearGradient id="waveGrad3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c084fc" stop-opacity="0.2"/>
+      <stop offset="50%" stop-color="#e879f9" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0.2"/>
+    </linearGradient>
+    <linearGradient id="glowLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="transparent"/>
+      <stop offset="30%" stop-color="#a855f7"/>
+      <stop offset="70%" stop-color="#c084fc"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="860" height="120" fill="url(#waveGrad1)"/>
+
+  <!-- Grid dots -->
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <circle cx="0" cy="0" r="1" fill="#a855f7" opacity="0.15"/>
+  </pattern>
+  <rect width="860" height="120" fill="url(#grid)"/>
+
+  <!-- Wave layer 1 - deep background -->
+  <path d="M0,80 C120,40 200,90 320,60 C440,30 500,75 620,55 C740,35 800,65 860,50 L860,120 L0,120 Z" fill="url(#waveGrad2)">
+    <animate attributeName="d"
+      values="
+        M0,80 C120,40 200,90 320,60 C440,30 500,75 620,55 C740,35 800,65 860,50 L860,120 L0,120 Z;
+        M0,60 C120,80 200,50 320,75 C440,95 500,55 620,70 C740,85 800,50 860,65 L860,120 L0,120 Z;
+        M0,80 C120,40 200,90 320,60 C440,30 500,75 620,55 C740,35 800,65 860,50 L860,120 L0,120 Z
+      "
+      dur="8s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Wave layer 2 - mid -->
+  <path d="M0,90 C80,65 180,100 280,75 C380,50 460,85 560,65 C660,45 760,80 860,60 L860,120 L0,120 Z" fill="url(#waveGrad3)">
+    <animate attributeName="d"
+      values="
+        M0,90 C80,65 180,100 280,75 C380,50 460,85 560,65 C660,45 760,80 860,60 L860,120 L0,120 Z;
+        M0,70 C80,90 180,65 280,85 C380,100 460,70 560,85 C660,95 760,65 860,80 L860,120 L0,120 Z;
+        M0,90 C80,65 180,100 280,75 C380,50 460,85 560,65 C660,45 760,80 860,60 L860,120 L0,120 Z
+      "
+      dur="6s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Wave layer 3 - foreground sharp edge -->
+  <path d="M0,100 C140,75 220,105 360,88 C500,70 580,95 700,80 C780,70 830,90 860,82 L860,120 L0,120 Z" fill="#050210" opacity="0.9">
+    <animate attributeName="d"
+      values="
+        M0,100 C140,75 220,105 360,88 C500,70 580,95 700,80 C780,70 830,90 860,82 L860,120 L0,120 Z;
+        M0,88 C140,100 220,82 360,98 C500,108 580,85 700,95 C780,102 830,82 860,92 L860,120 L0,120 Z;
+        M0,100 C140,75 220,105 360,88 C500,70 580,95 700,80 C780,70 830,90 860,82 L860,120 L0,120 Z
+      "
+      dur="7s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Neon glow line on wave crest -->
+  <path d="M0,100 C140,75 220,105 360,88 C500,70 580,95 700,80 C780,70 830,90 860,82" fill="none" stroke="url(#glowLine)" stroke-width="1.5" opacity="0.7">
+    <animate attributeName="d"
+      values="
+        M0,100 C140,75 220,105 360,88 C500,70 580,95 700,80 C780,70 830,90 860,82;
+        M0,88 C140,100 220,82 360,98 C500,108 580,85 700,95 C780,102 830,82 860,92;
+        M0,100 C140,75 220,105 360,88 C500,70 580,95 700,80 C780,70 830,90 860,82
+      "
+      dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.7;1;0.7" dur="4s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Floating particles -->
+  <circle cx="100" cy="70" r="2" fill="#c084fc" opacity="0.6">
+    <animate attributeName="cy" values="70;55;70" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="280" cy="50" r="1.5" fill="#818cf8" opacity="0.5">
+    <animate attributeName="cy" values="50;38;50" dur="7s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="520" cy="60" r="2" fill="#e879f9" opacity="0.4">
+    <animate attributeName="cy" values="60;45;60" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="720" cy="55" r="1.5" fill="#a855f7" opacity="0.5">
+    <animate attributeName="cy" values="55;42;55" dur="8s" repeatCount="indefinite"/>
+  </circle>
+</svg>

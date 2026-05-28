@@ -163,5 +163,6 @@ humera = {
 <br/>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6A0DAD,100:A855F7&height=100&section=footer" />
+<img src="./wave.svg" width="100%" />
 
 </div>
