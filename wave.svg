@@ -21,6 +21,10 @@
       <stop offset="70%" stop-color="#c084fc"/>
       <stop offset="100%" stop-color="transparent"/>
     </linearGradient>
+    <filter id="textGlow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
   </defs>
 
   <!-- Background -->
@@ -76,6 +80,20 @@
       dur="7s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values="0.7;1;0.7" dur="4s" repeatCount="indefinite"/>
   </path>
+
+  <!-- Center text -->
+  <text x="430" y="50" text-anchor="middle" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" font-weight="600" letter-spacing="3" fill="#c084fc" filter="url(#textGlow)">
+    Thanks for visiting my profile
+    <animate attributeName="opacity" values="0.7;1;0.7" dur="3s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- Decorative lines beside text -->
+  <line x1="110" y1="50" x2="230" y2="50" stroke="#a855f7" stroke-width="0.8" opacity="0.4"/>
+  <line x1="630" y1="50" x2="750" y2="50" stroke="#a855f7" stroke-width="0.8" opacity="0.4"/>
+
+  <!-- Small diamond decorations -->
+  <polygon points="240,50 245,45 250,50 245,55" fill="#c084fc" opacity="0.5"/>
+  <polygon points="610,50 615,45 620,50 615,55" fill="#c084fc" opacity="0.5"/>
 
   <!-- Floating particles -->
   <circle cx="100" cy="70" r="2" fill="#c084fc" opacity="0.6">
