@@ -1,185 +1,437 @@
-<svg width="1200" height="280" viewBox="0 0 1200 280" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="bgGradDark" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0d0a1a"/>
-      <stop offset="50%" stop-color="#130d2e"/>
-      <stop offset="100%" stop-color="#0f0a20"/>
-    </linearGradient>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <foreignObject width="1200" height="300">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
 
-    <radialGradient id="orb1d" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.35"/>
-      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="orb2d" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#4f46e5" stop-opacity="0.3"/>
-      <stop offset="100%" stop-color="#4f46e5" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="orb3d" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.2"/>
-      <stop offset="100%" stop-color="#a855f7" stop-opacity="0"/>
-    </radialGradient>
+        .root {
+          width: 1200px;
+          height: 300px;
+          background: linear-gradient(135deg, #050210 0%, #0c0620 40%, #080318 70%, #060215 100%);
+          border-radius: 16px;
+          overflow: hidden;
+          position: relative;
+          font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+        }
 
-    <linearGradient id="textGradDark" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#c084fc"/>
-      <stop offset="50%" stop-color="#e879f9"/>
-      <stop offset="100%" stop-color="#818cf8"/>
-    </linearGradient>
+        /* Cyberpunk grid */
+        .grid {
+          position: absolute;
+          inset: 0;
+          background-image:
+            linear-gradient(rgba(168,85,247,0.06) 1px, transparent 1px),
+            linear-gradient(90deg, rgba(168,85,247,0.06) 1px, transparent 1px);
+          background-size: 40px 40px;
+        }
 
-    <linearGradient id="shimmerDark" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="transparent"/>
-      <stop offset="40%" stop-color="rgba(196,132,252,0.15)"/>
-      <stop offset="100%" stop-color="transparent"/>
-      <animateTransform attributeName="gradientTransform" type="translate" from="-1200 0" to="1200 0" dur="3s" repeatCount="indefinite"/>
-    </linearGradient>
+        /* Scanline overlay */
+        .scanlines {
+          position: absolute;
+          inset: 0;
+          background: repeating-linear-gradient(
+            0deg,
+            transparent,
+            transparent 2px,
+            rgba(0,0,0,0.03) 2px,
+            rgba(0,0,0,0.03) 4px
+          );
+          pointer-events: none;
+        }
 
-    <pattern id="gridDark" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#a855f7" stroke-width="0.3" stroke-opacity="0.12"/>
-    </pattern>
+        /* Neon orbs */
+        .orb {
+          position: absolute;
+          border-radius: 50%;
+          filter: blur(60px);
+          animation: floatOrb ease-in-out infinite;
+        }
+        .orb-1 {
+          width: 340px; height: 340px;
+          background: radial-gradient(circle, rgba(124,58,237,0.5) 0%, transparent 70%);
+          top: -100px; left: -80px;
+          animation-duration: 8s;
+        }
+        .orb-2 {
+          width: 300px; height: 300px;
+          background: radial-gradient(circle, rgba(79,70,229,0.4) 0%, transparent 70%);
+          bottom: -80px; right: -60px;
+          animation-duration: 10s;
+          animation-delay: -3s;
+        }
+        .orb-3 {
+          width: 220px; height: 220px;
+          background: radial-gradient(circle, rgba(232,121,249,0.3) 0%, transparent 70%);
+          top: 40%; left: 44%;
+          transform: translate(-50%, -50%);
+          animation-duration: 12s;
+          animation-delay: -6s;
+        }
+        .orb-4 {
+          width: 160px; height: 160px;
+          background: radial-gradient(circle, rgba(99,102,241,0.35) 0%, transparent 70%);
+          top: 10px; right: 420px;
+          animation-duration: 7s;
+          animation-delay: -2s;
+        }
 
-    <filter id="glowDark">
-      <feGaussianBlur stdDeviation="10" result="blur"/>
-      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
-    </filter>
-  </defs>
+        @keyframes floatOrb {
+          0%,100% { transform: translate(0,0); }
+          33%      { transform: translate(20px,-16px); }
+          66%      { transform: translate(-14px,18px); }
+        }
 
-  <!-- Background -->
-  <rect width="1200" height="280" rx="16" fill="url(#bgGradDark)"/>
-  <rect width="1200" height="280" rx="16" fill="url(#gridDark)"/>
+        /* Neon glow lines */
+        .neon-line-h {
+          position: absolute;
+          height: 1px;
+          background: linear-gradient(90deg, transparent, rgba(168,85,247,0.6), transparent);
+          animation: neonPulse 4s ease-in-out infinite;
+        }
+        .neon-line-1 { width: 70%; top: 0; left: 15%; }
+        .neon-line-2 { width: 50%; bottom: 0; left: 25%; animation-delay: -2s; }
 
-  <!-- Animated orbs -->
-  <ellipse cx="100" cy="80" rx="200" ry="170" fill="url(#orb1d)" filter="url(#glowDark)">
-    <animateTransform attributeName="transform" type="translate" values="0,0; 25,12; 0,0" dur="8s" repeatCount="indefinite"/>
-  </ellipse>
-  <ellipse cx="1100" cy="200" rx="220" ry="180" fill="url(#orb2d)" filter="url(#glowDark)">
-    <animateTransform attributeName="transform" type="translate" values="0,0; -18,14; 0,0" dur="10s" repeatCount="indefinite"/>
-  </ellipse>
-  <ellipse cx="580" cy="290" rx="240" ry="130" fill="url(#orb3d)" filter="url(#glowDark)">
-    <animateTransform attributeName="transform" type="translate" values="0,0; 12,-22; 0,0" dur="12s" repeatCount="indefinite"/>
-  </ellipse>
+        @keyframes neonPulse {
+          0%,100% { opacity: 0.4; }
+          50%      { opacity: 1; box-shadow: 0 0 8px rgba(168,85,247,0.8); }
+        }
 
-  <!-- Stars / sparkles -->
-  <g fill="#c084fc">
-    <circle cx="180" cy="30" r="1.5" opacity="0.6"><animate attributeName="opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite"/></circle>
-    <circle cx="340" cy="55" r="1" opacity="0.4"><animate attributeName="opacity" values="0.4;0.9;0.4" dur="4s" repeatCount="indefinite"/></circle>
-    <circle cx="660" cy="25" r="1.5" opacity="0.5"><animate attributeName="opacity" values="0.5;1;0.5" dur="5s" repeatCount="indefinite"/></circle>
-    <circle cx="870" cy="45" r="1" opacity="0.4"><animate attributeName="opacity" values="0.4;0.8;0.4" dur="3.5s" repeatCount="indefinite"/></circle>
-    <circle cx="1050" cy="30" r="1.5" opacity="0.6"><animate attributeName="opacity" values="0.6;1;0.6" dur="4.5s" repeatCount="indefinite"/></circle>
-    <circle cx="1150" cy="150" r="1" opacity="0.4"><animate attributeName="opacity" values="0.4;0.9;0.4" dur="3s" repeatCount="indefinite"/></circle>
-    <circle cx="240" cy="240" r="1.5" opacity="0.3"><animate attributeName="opacity" values="0.3;0.7;0.3" dur="6s" repeatCount="indefinite"/></circle>
-    <circle cx="500" cy="220" r="1" opacity="0.4"><animate attributeName="opacity" values="0.4;0.8;0.4" dur="4s" repeatCount="indefinite"/></circle>
-  </g>
+        /* Glass card LEFT */
+        .glass-card {
+          position: absolute;
+          left: 56px;
+          top: 50%;
+          transform: translateY(-50%);
+          padding: 28px 36px;
+          background: rgba(255,255,255,0.03);
+          border: 1px solid rgba(168,85,247,0.2);
+          border-radius: 16px;
+          backdrop-filter: blur(20px);
+          -webkit-backdrop-filter: blur(20px);
+          box-shadow:
+            0 0 0 1px rgba(168,85,247,0.05),
+            0 8px 40px rgba(124,58,237,0.2),
+            inset 0 1px 0 rgba(255,255,255,0.05),
+            0 0 60px rgba(168,85,247,0.06);
+          animation: fadeSlideIn 0.9s ease forwards;
+        }
+        @keyframes fadeSlideIn {
+          from { opacity: 0; transform: translateY(calc(-50% + 24px)); }
+          to   { opacity: 1; transform: translateY(-50%); }
+        }
 
-  <!-- Dot grid top-right -->
-  <g opacity="0.25">
-    <circle cx="1000" cy="30" r="1.5" fill="#c084fc"/>
-    <circle cx="1020" cy="30" r="1.5" fill="#c084fc"/>
-    <circle cx="1040" cy="30" r="1.5" fill="#c084fc"/>
-    <circle cx="1060" cy="30" r="1.5" fill="#c084fc"/>
-    <circle cx="1080" cy="30" r="1.5" fill="#c084fc"/>
-    <circle cx="1000" cy="50" r="1.5" fill="#c084fc"/>
-    <circle cx="1020" cy="50" r="1.5" fill="#c084fc"/>
-    <circle cx="1040" cy="50" r="1.5" fill="#c084fc"/>
-    <circle cx="1060" cy="50" r="1.5" fill="#c084fc"/>
-    <circle cx="1080" cy="50" r="1.5" fill="#c084fc"/>
-    <circle cx="1000" cy="70" r="1.5" fill="#c084fc"/>
-    <circle cx="1020" cy="70" r="1.5" fill="#c084fc"/>
-    <circle cx="1040" cy="70" r="1.5" fill="#c084fc"/>
-    <circle cx="1060" cy="70" r="1.5" fill="#c084fc"/>
-    <circle cx="1080" cy="70" r="1.5" fill="#c084fc"/>
-    <circle cx="1100" cy="30" r="1.5" fill="#c084fc"/>
-    <circle cx="1120" cy="30" r="1.5" fill="#c084fc"/>
-    <circle cx="1140" cy="30" r="1.5" fill="#c084fc"/>
-    <circle cx="1160" cy="30" r="1.5" fill="#c084fc"/>
-    <circle cx="1100" cy="50" r="1.5" fill="#c084fc"/>
-    <circle cx="1120" cy="50" r="1.5" fill="#c084fc"/>
-    <circle cx="1100" cy="70" r="1.5" fill="#c084fc"/>
-    <circle cx="1120" cy="70" r="1.5" fill="#c084fc"/>
-  </g>
+        /* Neon corner accents on card */
+        .glass-card::before {
+          content: '';
+          position: absolute;
+          top: -1px; left: -1px;
+          width: 40px; height: 40px;
+          border-top: 2px solid rgba(168,85,247,0.7);
+          border-left: 2px solid rgba(168,85,247,0.7);
+          border-radius: 16px 0 0 0;
+          box-shadow: -2px -2px 8px rgba(168,85,247,0.3);
+        }
+        .glass-card::after {
+          content: '';
+          position: absolute;
+          bottom: -1px; right: -1px;
+          width: 40px; height: 40px;
+          border-bottom: 2px solid rgba(99,102,241,0.6);
+          border-right: 2px solid rgba(99,102,241,0.6);
+          border-radius: 0 0 16px 0;
+          box-shadow: 2px 2px 8px rgba(99,102,241,0.25);
+        }
 
-  <!-- Floating particles -->
-  <circle cx="200" cy="205" r="3" fill="#c084fc" opacity="0.5">
-    <animate attributeName="cy" values="205;190;205" dur="5s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.5;0.9;0.5" dur="5s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="950" cy="85" r="2.5" fill="#818cf8" opacity="0.5">
-    <animate attributeName="cy" values="85;70;85" dur="6s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="400" cy="245" r="2" fill="#e879f9" opacity="0.4">
-    <animate attributeName="cy" values="245;230;245" dur="7s" repeatCount="indefinite"/>
-  </circle>
+        .pill {
+          display: inline-flex;
+          align-items: center;
+          gap: 7px;
+          background: rgba(168,85,247,0.1);
+          border: 1px solid rgba(168,85,247,0.3);
+          border-radius: 999px;
+          padding: 4px 14px;
+          font-size: 11px;
+          font-weight: 600;
+          color: #c084fc;
+          letter-spacing: 1.4px;
+          text-transform: uppercase;
+          margin-bottom: 14px;
+          box-shadow: 0 0 12px rgba(192,132,252,0.15);
+        }
+        .dot-live {
+          width: 7px; height: 7px;
+          border-radius: 50%;
+          background: #4ade80;
+          box-shadow: 0 0 6px #4ade80, 0 0 12px rgba(74,222,128,0.4);
+          animation: pulseGreen 2s ease-in-out infinite;
+        }
+        @keyframes pulseGreen {
+          0%,100% { opacity: 1; box-shadow: 0 0 6px #4ade80, 0 0 12px rgba(74,222,128,0.4); }
+          50%      { opacity: 0.5; box-shadow: 0 0 2px #4ade80; }
+        }
 
-  <!-- Horizontal line accent -->
-  <line x1="80" y1="178" x2="520" y2="178" stroke="url(#textGradDark)" stroke-width="0.8" stroke-opacity="0.3"/>
+        .name {
+          font-size: 48px;
+          font-weight: 800;
+          letter-spacing: -1.5px;
+          background: linear-gradient(90deg, #c084fc, #e879f9, #818cf8, #c084fc);
+          background-size: 300% auto;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-clip: text;
+          line-height: 1;
+          margin-bottom: 10px;
+          animation: neonShimmer 4s linear infinite;
+          filter: drop-shadow(0 0 20px rgba(192,132,252,0.4));
+        }
+        @keyframes neonShimmer {
+          0%   { background-position: 0% center; }
+          100% { background-position: 300% center; }
+        }
 
-  <!-- Big bracket decorations -->
-  <text x="66" y="112" font-family="monospace" font-size="74" fill="#a855f7" opacity="0.07" font-weight="bold">{</text>
-  <text x="1108" y="232" font-family="monospace" font-size="74" fill="#818cf8" opacity="0.06" font-weight="bold">}</text>
+        .tagline {
+          font-size: 14px;
+          color: rgba(216,180,254,0.7);
+          letter-spacing: 0.4px;
+          margin-bottom: 20px;
+        }
 
-  <!-- Main content -->
-  <g>
-    <animate attributeName="opacity" values="0;1" dur="1.2s" fill="freeze"/>
+        .badges {
+          display: flex;
+          gap: 10px;
+          flex-wrap: wrap;
+        }
+        .badge {
+          display: inline-flex;
+          align-items: center;
+          gap: 5px;
+          background: rgba(168,85,247,0.06);
+          border: 1px solid rgba(168,85,247,0.18);
+          border-radius: 8px;
+          padding: 5px 12px;
+          font-size: 12px;
+          color: rgba(216,180,254,0.85);
+          font-weight: 500;
+          box-shadow: inset 0 1px 0 rgba(168,85,247,0.1);
+          transition: border-color 0.3s;
+        }
 
-    <!-- Greeting pill -->
-    <rect x="80" y="46" width="140" height="26" rx="13" fill="#c084fc" fill-opacity="0.1" stroke="#c084fc" stroke-width="0.6" stroke-opacity="0.3"/>
-    <text x="150" y="63" font-family="'Segoe UI', system-ui, sans-serif" font-size="12" fill="#c084fc" font-weight="600" text-anchor="middle" letter-spacing="1.5">✦ HELLO WORLD</text>
+        /* Terminal RIGHT */
+        .terminal {
+          position: absolute;
+          right: 56px;
+          top: 50%;
+          transform: translateY(-50%);
+          width: 340px;
+          background: rgba(5,2,16,0.7);
+          border: 1px solid rgba(168,85,247,0.2);
+          border-radius: 14px;
+          backdrop-filter: blur(24px);
+          -webkit-backdrop-filter: blur(24px);
+          box-shadow:
+            0 0 0 1px rgba(168,85,247,0.04),
+            0 8px 40px rgba(124,58,237,0.25),
+            0 0 80px rgba(168,85,247,0.08),
+            inset 0 1px 0 rgba(255,255,255,0.04);
+          overflow: hidden;
+          animation: fadeSlideInRight 1s 0.25s ease both;
+        }
+        @keyframes fadeSlideInRight {
+          from { opacity: 0; transform: translateY(calc(-50% + 24px)); }
+          to   { opacity: 1; transform: translateY(-50%); }
+        }
+        /* Neon top border on terminal */
+        .terminal::before {
+          content: '';
+          position: absolute;
+          top: 0; left: 10%; right: 10%;
+          height: 1px;
+          background: linear-gradient(90deg, transparent, rgba(168,85,247,0.8), transparent);
+          box-shadow: 0 0 8px rgba(168,85,247,0.5);
+        }
 
-    <!-- Main name -->
-    <text x="80" y="130" font-family="'Segoe UI', Georgia, serif" font-size="58" font-weight="700" fill="url(#textGradDark)" letter-spacing="-1">
-      Humera Mahreen
-    </text>
+        .terminal-bar {
+          display: flex;
+          align-items: center;
+          gap: 7px;
+          padding: 10px 16px;
+          background: rgba(168,85,247,0.05);
+          border-bottom: 1px solid rgba(168,85,247,0.1);
+        }
+        .tb { width: 11px; height: 11px; border-radius: 50%; }
+        .tb-r { background: #f87171; box-shadow: 0 0 5px rgba(248,113,113,0.5); }
+        .tb-y { background: #fbbf24; box-shadow: 0 0 5px rgba(251,191,36,0.5); }
+        .tb-g { background: #4ade80; box-shadow: 0 0 5px rgba(74,222,128,0.5); }
+        .tb-title {
+          margin-left: auto;
+          font-size: 11px;
+          color: rgba(168,85,247,0.6);
+          font-family: 'Courier New', monospace;
+        }
 
-    <!-- Shimmer on name -->
-    <rect x="80" y="78" width="620" height="60" fill="url(#shimmerDark)" rx="4"/>
+        .code-body {
+          padding: 16px 20px;
+          font-family: 'Courier New', monospace;
+          font-size: 12.5px;
+          line-height: 1.85;
+        }
+        .kw  { color: #c084fc; font-weight: 600; }
+        .cn  { color: #818cf8; }
+        .st  { color: #86efac; }
+        .op  { color: rgba(168,85,247,0.9); }
+        .cm  { color: rgba(148,163,184,0.5); font-style: italic; }
 
-    <!-- Tagline -->
-    <text x="82" y="162" font-family="'Segoe UI', system-ui, sans-serif" font-size="17" fill="#d8b4fe" font-weight="400" letter-spacing="0.3" opacity="0.75">
-      ML Explorer · Data Science · AI-Driven Solutions
-    </text>
+        .cursor {
+          display: inline-block;
+          width: 8px; height: 14px;
+          background: #c084fc;
+          border-radius: 2px;
+          vertical-align: middle;
+          box-shadow: 0 0 8px rgba(192,132,252,0.8), 0 0 16px rgba(192,132,252,0.4);
+          animation: blink 1.1s step-end infinite;
+        }
+        @keyframes blink {
+          0%,100% { opacity: 1; }
+          50%      { opacity: 0; }
+        }
 
-    <!-- Status badge -->
-    <rect x="82" y="192" width="196" height="30" rx="6" fill="#c084fc" fill-opacity="0.08" stroke="#c084fc" stroke-width="0.6" stroke-opacity="0.3"/>
-    <circle cx="101" cy="207" r="5" fill="#4ade80">
-      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
-    </circle>
-    <text x="113" y="212" font-family="'Segoe UI', system-ui, sans-serif" font-size="12" fill="#d8b4fe" font-weight="500">Currently learning ML 🚀</text>
+        /* Floating particles */
+        .particles { position: absolute; inset: 0; pointer-events: none; }
+        .p {
+          position: absolute;
+          border-radius: 50%;
+          animation: floatParticle linear infinite;
+        }
+        .p1 { width:3px;height:3px; left:15%;top:80%; background:rgba(192,132,252,0.7); animation-duration:6s;  box-shadow:0 0 4px rgba(192,132,252,0.8); }
+        .p2 { width:2px;height:2px; left:72%;top:15%; background:rgba(129,140,248,0.7); animation-duration:8s;  animation-delay:-2s; }
+        .p3 { width:4px;height:4px; left:52%;top:88%; background:rgba(99,102,241,0.6);  animation-duration:5s;  animation-delay:-1s; box-shadow:0 0 6px rgba(99,102,241,0.8); }
+        .p4 { width:2px;height:2px; left:32%;top:12%; background:rgba(232,121,249,0.7); animation-duration:7s;  animation-delay:-4s; }
+        .p5 { width:3px;height:3px; left:88%;top:55%; background:rgba(168,85,247,0.8);  animation-duration:9s;  animation-delay:-3s; box-shadow:0 0 5px rgba(168,85,247,0.9); }
+        .p6 { width:2px;height:2px; left:42%;top:5%;  background:rgba(192,132,252,0.6); animation-duration:11s; animation-delay:-5s; }
 
-    <!-- Location badge -->
-    <rect x="290" y="192" width="148" height="30" rx="6" fill="#c084fc" fill-opacity="0.08" stroke="#c084fc" stroke-width="0.6" stroke-opacity="0.3"/>
-    <text x="364" y="212" font-family="'Segoe UI', system-ui, sans-serif" font-size="12" fill="#d8b4fe" font-weight="500" text-anchor="middle">📍 Hyderabad, IN</text>
-  </g>
+        @keyframes floatParticle {
+          0%   { transform:translateY(0);   opacity:0; }
+          10%  { opacity:1; }
+          90%  { opacity:1; }
+          100% { transform:translateY(-70px); opacity:0; }
+        }
 
-  <!-- Code panel -->
-  <g>
-    <animate attributeName="opacity" values="0;1" dur="2s" fill="freeze"/>
-    <rect x="780" y="70" width="350" height="148" rx="10" fill="#1e1040" fill-opacity="0.8" stroke="#c084fc" stroke-width="0.8" stroke-opacity="0.2"/>
+        /* Dot matrix decoration */
+        .dots {
+          position: absolute;
+          right: 430px;
+          top: 18px;
+          display: grid;
+          grid-template-columns: repeat(6, 1fr);
+          gap: 9px;
+          opacity: 0.18;
+        }
+        .d { width: 2.5px; height: 2.5px; border-radius: 50%; background: #a855f7; }
 
-    <!-- Window dots -->
-    <circle cx="804" cy="90" r="5" fill="#f87171" opacity="0.7"/>
-    <circle cx="822" cy="90" r="5" fill="#fbbf24" opacity="0.7"/>
-    <circle cx="840" cy="90" r="5" fill="#4ade80" opacity="0.7"/>
+        /* Stars */
+        .star {
+          position: absolute;
+          border-radius: 50%;
+          background: white;
+          animation: twinkle ease-in-out infinite;
+        }
+        .s1{width:2px;height:2px;top:12%;left:48%;opacity:.3;animation-duration:3s;}
+        .s2{width:1.5px;height:1.5px;top:25%;left:62%;opacity:.2;animation-duration:4s;animation-delay:-1.5s;}
+        .s3{width:2px;height:2px;top:8%;left:75%;opacity:.25;animation-duration:5s;animation-delay:-2s;}
+        .s4{width:1px;height:1px;top:65%;left:40%;opacity:.2;animation-duration:3.5s;animation-delay:-1s;}
 
-    <!-- Code -->
-    <text x="800" y="118" font-family="'Courier New', monospace" font-size="12.5">
-      <tspan fill="#c084fc">class</tspan>
-      <tspan fill="#e9d5ff"> Humera</tspan>
-      <tspan fill="#c084fc">:</tspan>
-    </text>
-    <text x="800" y="136" font-family="'Courier New', monospace" font-size="12.5">
-      <tspan fill="#818cf8">  passion </tspan><tspan fill="#c084fc">= </tspan><tspan fill="#86efac">"ML &amp; AI"</tspan>
-    </text>
-    <text x="800" y="154" font-family="'Courier New', monospace" font-size="12.5">
-      <tspan fill="#818cf8">  focus   </tspan><tspan fill="#c084fc">= </tspan><tspan fill="#86efac">"Data Science"</tspan>
-    </text>
-    <text x="800" y="172" font-family="'Courier New', monospace" font-size="12.5">
-      <tspan fill="#818cf8">  goal    </tspan><tspan fill="#c084fc">= </tspan><tspan fill="#86efac">"Build &amp; Solve"</tspan>
-    </text>
-    <text x="800" y="192" font-family="'Courier New', monospace" font-size="12.5" fill="#c084fc">
-      <tspan>  </tspan><tspan fill="#e879f9">▌</tspan>
-      <animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/>
-    </text>
-  </g>
+        @keyframes twinkle {
+          0%,100%{opacity:.1;transform:scale(1);}
+          50%{opacity:.5;transform:scale(1.5);}
+        }
 
-  <!-- Bottom border -->
-  <rect x="0" y="272" width="1200" height="4" rx="2" fill="url(#textGradDark)" opacity="0.6"/>
-  <rect x="0" y="272" width="1200" height="4" rx="2" fill="url(#shimmerDark)"/>
+        /* Bottom shimmer line */
+        .bottom-line {
+          position: absolute;
+          bottom: 0; left: 0; right: 0;
+          height: 2px;
+          background: linear-gradient(90deg, transparent 0%, #7c3aed 20%, #c084fc 50%, #6366f1 80%, transparent 100%);
+          box-shadow: 0 0 10px rgba(168,85,247,0.6);
+          background-size: 200% 100%;
+          animation: scanline 3.5s linear infinite;
+        }
+        @keyframes scanline {
+          0%   { background-position: -200% 0; }
+          100% { background-position: 200% 0; }
+        }
+      </style>
+
+      <div class="root">
+        <div class="grid"></div>
+        <div class="scanlines"></div>
+
+        <!-- Neon border lines -->
+        <div class="neon-line-h neon-line-1"></div>
+        <div class="neon-line-h neon-line-2"></div>
+
+        <!-- Orbs -->
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+        <div class="orb orb-4"></div>
+
+        <!-- Stars -->
+        <div class="star s1"></div>
+        <div class="star s2"></div>
+        <div class="star s3"></div>
+        <div class="star s4"></div>
+
+        <!-- Dot matrix -->
+        <div class="dots">
+          <div class="d"></div><div class="d"></div><div class="d"></div><div class="d"></div><div class="d"></div><div class="d"></div>
+          <div class="d"></div><div class="d"></div><div class="d"></div><div class="d"></div><div class="d"></div><div class="d"></div>
+          <div class="d"></div><div class="d"></div><div class="d"></div><div class="d"></div><div class="d"></div><div class="d"></div>
+          <div class="d"></div><div class="d"></div><div class="d"></div><div class="d"></div><div class="d"></div><div class="d"></div>
+        </div>
+
+        <!-- Particles -->
+        <div class="particles">
+          <div class="p p1"></div>
+          <div class="p p2"></div>
+          <div class="p p3"></div>
+          <div class="p p4"></div>
+          <div class="p p5"></div>
+          <div class="p p6"></div>
+        </div>
+
+        <!-- Left: Glass Card -->
+        <div class="glass-card">
+          <div class="pill"><div class="dot-live"></div>Open to opportunities</div>
+          <div class="name">Humera Mahreen</div>
+          <div class="tagline">Applied AI &#160;·&#160; GenAI &#160;·&#160; Agentic AI Explorer</div>
+          <div class="badges">
+            <div class="badge">🤖 Machine Learning</div>
+            <div class="badge">✨ GenAI &amp; LLMs</div>
+            <div class="badge">📍 Hyderabad, IN</div>
+          </div>
+        </div>
+
+        <!-- Right: Terminal -->
+        <div class="terminal">
+          <div class="terminal-bar">
+            <div class="tb tb-r"></div>
+            <div class="tb tb-y"></div>
+            <div class="tb tb-g"></div>
+            <div class="tb-title">humera.py</div>
+          </div>
+          <div class="code-body">
+            <div><span class="kw">class</span> <span class="cn">Humera</span><span class="op">:</span></div>
+            <div>&#160;&#160;<span class="cm"># ML Explorer 🚀</span></div>
+            <div>&#160;&#160;<span class="cn">passion</span> <span class="op">=</span> <span class="st">"ML &amp; GenAI"</span></div>
+            <div>&#160;&#160;<span class="cn">focus</span> &#160;&#160;<span class="op">=</span> <span class="st">"GenAI &amp; LLMs"</span></div>
+            <div>&#160;&#160;<span class="cn">goal</span> &#160;&#160;<span class="op">=</span> <span class="st">"Build &amp; Solve"</span></div>
+            <div>&#160;&#160;<span class="cn">city</span> &#160;&#160;<span class="op">=</span> <span class="st">"Hyderabad 🇮🇳"</span></div>
+            <div>&#160;&#160;<span class="cursor"></span></div>
+          </div>
+        </div>
+
+        <!-- Bottom neon line -->
+        <div class="bottom-line"></div>
+      </div>
+    </div>
+  </foreignObject>
 </svg>
