@@ -58,7 +58,7 @@ humera = {
 
 <div align="center">
 
-### Applied AI & ML
+### AI & ML
 
 <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow" />
 
@@ -91,12 +91,13 @@ humera = {
 
 ### Tools & Deployment
 
-<img src="https://skillicons.dev/icons?i=docker,git,github,figma,vscode,netlify" />
+<img src="https://skillicons.dev/icons?i=docker,git,github,figma,vscode,netlify,postman" />
 
 <br><br>
 
 <img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=000" />
 <img src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white" />
+
 
 </div>
 
@@ -107,7 +108,7 @@ humera = {
 
 <div align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com?user=Humera-tech&theme=midnight-purple&hide_border=true&background=0D1117&ring=A855F7&fire=C084FC&currStreakLabel=C084FC" width="48%" />
+<img src="https://streak-stats.demolab.com?user=Humera-tech&theme=github_dark&hide_border=true" />
 
 </div>
 
@@ -115,7 +116,7 @@ humera = {
 
 <div align="center">
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Humera-tech&theme=midnight_purple" width="95%" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Humera-tech&theme=github_dark" width="95%" />
 
 </div>
 
@@ -123,9 +124,9 @@ humera = {
 
 <div align="center">
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Humera-tech&theme=midnight_purple" width="47%" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Humera-tech&theme=github_dark" width="47%" />
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Humera-tech&theme=midnight_purple" width="47%" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Humera-tech&theme=github_dark" width="47%" />
 
 </div>
 ---
@@ -162,7 +163,6 @@ humera = {
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6A0DAD,100:A855F7&height=100&section=footer" />
 <img src="./wave.svg" width="100%" />
 
 </div>
