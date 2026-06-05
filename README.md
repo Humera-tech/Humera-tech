@@ -108,8 +108,7 @@ humera = {
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=Humera-tech&theme=github_dark&hide_border=true" />
-
+![GitHub Streak](https://streak-stats.demolab.com?user=Humera-tech&theme=github-dark&hide_border=true)
 </div>
 
 <br>
