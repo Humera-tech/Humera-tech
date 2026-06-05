@@ -108,7 +108,7 @@ humera = {
 
 <div align="center">
 
-![GitHub Streak](https://streak-stats.demolab.com?user=Humera-tech&theme=github-dark&hide_border=true)
+[![GitHub Streak](https://streak-stats.demolab.com?user=&theme=tokyonight-duo)](https://git.io/streak-stats)
 </div>
 
 <br>
