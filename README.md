@@ -95,54 +95,6 @@ humera = {
 
 </div>
 
-<br>
-
-<div align="center">
-
-### AI & ML
-
-<img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow" />
-
-<br><br>
-
-<img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white" />
-<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
-<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
-
-<br>
-
-<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
-<img src="https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=python&logoColor=white" />
-
-</div>
-
-<br><br>
-
-<div align="center">
-
-### Frontend Development
-
-<img src="https://skillicons.dev/icons?i=html,css,js,tailwind,bootstrap,react" />
-
-</div>
-
-<br><br>
-
-<div align="center">
-
-### Tools & Deployment
-
-<img src="https://skillicons.dev/icons?i=docker,git,github,figma,vscode,netlify,postman" />
-
-<br><br>
-
-<img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=000" />
-<img src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white" />
-
-
-</div>
-
-<br>
 ---
 
 ## ✦ GitHub Stats
