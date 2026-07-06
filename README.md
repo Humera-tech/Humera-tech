@@ -19,7 +19,7 @@
 
 ---
 
-<img src="./aboutme-banner.svg" width="100%" />
+
 
 ```python
 humera = {
