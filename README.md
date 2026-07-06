@@ -19,7 +19,7 @@
 
 ---
 
-## ✦ About Me
+<img src="./aboutme-banner.svg" width="100%" />
 
 ```python
 humera = {
@@ -32,6 +32,15 @@ humera = {
     "mindset": "Learn deeply • Build consistently • Improve step by step"
 }
 ```
+<div align="center">
+
+![](https://img.shields.io/badge/Applied%20AI-7c3aed?style=flat-square&logoColor=white)
+![](https://img.shields.io/badge/GenAI%20%26%20LLMs-a855f7?style=flat-square&logoColor=white)
+![](https://img.shields.io/badge/Agentic%20AI-6366f1?style=flat-square&logoColor=white)
+![](https://img.shields.io/badge/Machine%20Learning-818cf8?style=flat-square&logoColor=white)
+![](https://img.shields.io/badge/Python-c084fc?style=flat-square&logo=python&logoColor=white)
+
+</div>
 
 -  Passionate about building intelligent systems using AI & Machine Learning.
 - Currently building ML + GenAI projects while improving deployment and system design skills.
@@ -54,7 +63,7 @@ humera = {
 
 
 <div align="center">
-  <img src="./techstack-banner.svg" alt="Tech Stack" width="100%" />
+  <img src="./techstack-bannerm.svg" alt="Tech Stack" width="100%" />
 </div>
 
 <div align="center">
@@ -102,7 +111,7 @@ humera = {
 
 
 <div align="center">
-  <img src="./githubstats-banner.svg" alt="GitHub Stats" width="100%" />
+  <img src="./githubstats-bannerm.svg" alt="GitHub Stats" width="100%" />
 </div>
 
 <div align="center">
