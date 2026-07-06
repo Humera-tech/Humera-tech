@@ -49,8 +49,6 @@ humera = {
 
 ---
 
-<img src="./waveb.svg" width="100%" />
-
 ## ✦ Connect With Me
 
 <div align="center">
@@ -63,7 +61,7 @@ humera = {
 
 ---
 
-<img src="./waveb.svg" width="100%" />
+
 <div align="center">
   <img src="./techstack-bannerm.svg" alt="Tech Stack" width="100%" />
 </div>
@@ -148,7 +146,7 @@ humera = {
 </div>
 
 ---
-<img src="./waveb.svg" width="100%" />
+
 ## ✦ LeetCode
 
 <div align="center">
@@ -162,7 +160,6 @@ humera = {
 </div>
 
 ---
-<img src="./waveb.svg" width="100%" />
 
 <div align="center">
 
