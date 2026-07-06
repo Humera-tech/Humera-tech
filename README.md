@@ -129,7 +129,6 @@ humera = {
 </div>
 ---
 
-## ✦ Activity Graph
 
 <div align="center">
 
@@ -161,6 +160,6 @@ humera = {
 
 <br/>
 
-<img src="./wave.svg" width="100%" />
+<img src="./waveend.svg" width="100%" />
 
 </div>
