@@ -33,10 +33,10 @@ humera = {
 }
 ```
 
--  Passionate about building intelligent systems using AI & Machine Learning
-- Currently building ML + GenAI projects while improving deployment and system design skills
-- Focused on creating projects that combine technology, usability, and impact
-- Continuously learning through hands-on projects and experimentation
+-  Passionate about building intelligent systems using AI & Machine Learning.
+- Currently building ML + GenAI projects while improving deployment and system design skills.
+- Focused on creating projects that combine technology, usability, and impact.
+- Continuously learning through hands-on projects and experimentation.
 
 ---
 
@@ -52,7 +52,7 @@ humera = {
 
 ---
 
-##  Tech Stack
+
 <div align="center">
   <img src="./techstack-banner.svg" alt="Tech Stack" width="100%" />
 </div>
@@ -100,7 +100,7 @@ humera = {
 
 ---
 
-## ✦ GitHub Stats
+
 <div align="center">
   <img src="./githubstats-banner.svg" alt="GitHub Stats" width="100%" />
 </div>
