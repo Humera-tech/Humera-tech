@@ -53,6 +53,9 @@ humera = {
 ---
 
 ##  Tech Stack
+<div align="center">
+  <img src="./techstack-banner.svg" alt="Tech Stack" width="100%" />
+</div>
 
 <div align="center">
 
@@ -98,6 +101,9 @@ humera = {
 ---
 
 ## ✦ GitHub Stats
+<div align="center">
+  <img src="./githubstats-banner.svg" alt="GitHub Stats" width="100%" />
+</div>
 
 <div align="center">
 
