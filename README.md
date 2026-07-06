@@ -19,7 +19,9 @@
 
 ---
 
-
+<div align="center">
+  <img src="./aboutme-banner.svg" alt="Tech Stack" width="100%" />
+</div>
 
 ```python
 humera = {
@@ -32,15 +34,7 @@ humera = {
     "mindset": "Learn deeply • Build consistently • Improve step by step"
 }
 ```
-<div align="center">
 
-![](https://img.shields.io/badge/Applied%20AI-7c3aed?style=flat-square&logoColor=white)
-![](https://img.shields.io/badge/GenAI%20%26%20LLMs-a855f7?style=flat-square&logoColor=white)
-![](https://img.shields.io/badge/Agentic%20AI-6366f1?style=flat-square&logoColor=white)
-![](https://img.shields.io/badge/Machine%20Learning-818cf8?style=flat-square&logoColor=white)
-![](https://img.shields.io/badge/Python-c084fc?style=flat-square&logo=python&logoColor=white)
-
-</div>
 
 -  Passionate about building intelligent systems using AI & Machine Learning.
 - Currently building ML + GenAI projects while improving deployment and system design skills.
