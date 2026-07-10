@@ -4,7 +4,7 @@
 
   <img 
     alt="Humera Mahreen | ML Explorer | AI Enthusiast"
-    src="./name.svg"
+    src="./nameheader.svg"
     width="100%"
   />
 </picture>
@@ -83,6 +83,14 @@ humera = {
 ###  Frontend Development
 
 <img src="https://skillicons.dev/icons?i=html,css,js,tailwind,bootstrap,react,vite" />
+
+</div>
+<div align="center">
+
+### Backend Development & Databases
+
+<img src="https://skillicons.dev/icons?i=flask,sqlite" />
+<img src="https://techstack-generator.vercel.app/restapi-icon.svg" width="65" height="65" alt="REST API" />
 
 </div>
 
