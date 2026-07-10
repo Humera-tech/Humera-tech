@@ -59,11 +59,11 @@ humera = {
 <div align="center">
   <img src="./techstack-bannerm.svg" alt="Tech Stack" width="100%" />
 </div>
+
+<div align="center">
 <div align="center">
   <img src="./techstack.svg" width="100%" />
 </div>
-
-<div align="center">
 
 ###  AI & Machine Learning
 
@@ -90,6 +90,16 @@ humera = {
 </div>
 
 <br>
+<div align="center">
+
+<div align="center">
+
+### ⚙️ Backend Development & Databases
+
+<img src="https://skillicons.dev/icons?i=flask,sqlite" />
+<img src="https://techstack-generator.vercel.app/restapi-icon.svg" width="65" height="65" alt="REST API" />
+
+</div>
 
 <div align="center">
 
@@ -112,8 +122,7 @@ humera = {
 </div>
 
 <div align="center">
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=Humera-tech&theme=shadow-purple&border_radius=5.1)](https://git.io/streak-stats)
+  <img src="https://streak-stats.demolab.com?user=Humera-tech&theme=shadow-purple&border_radius=5.1" />
 </div>
 
 <br>
