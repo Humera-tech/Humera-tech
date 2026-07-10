@@ -59,12 +59,6 @@ humera = {
 <div align="center">
   <img src="./techstack-bannerm.svg" alt="Tech Stack" width="100%" />
 </div>
-
-<div align="center">
-<div align="center">
-  <img src="./techstack.svg" width="100%" />
-</div>
-
 ###  AI & Machine Learning
 
 <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow" />
