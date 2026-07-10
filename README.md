@@ -87,6 +87,16 @@ humera = {
 </div>
 
 <br>
+<div align="center">
+
+<div align="center">
+
+### ⚙️ Backend Development & Databases
+
+<img src="https://skillicons.dev/icons?i=flask,sqlite" />
+<img src="https://techstack-generator.vercel.app/restapi-icon.svg" width="65" height="65" alt="REST API" />
+
+</div>
 
 <div align="center">
 
