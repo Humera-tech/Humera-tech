@@ -1,0 +1,339 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="200" viewBox="0 0 860 200">
+  <defs>
+    <!-- Background -->
+    <radialGradient id="bg" cx="50%" cy="50%" r="80%">
+      <stop offset="0%"   stop-color="#1a0533"/>
+      <stop offset="50%"  stop-color="#0d0020"/>
+      <stop offset="100%" stop-color="#050008"/>
+    </radialGradient>
+
+    <!-- Name gradient flowing -->
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#d8b4fe"/>
+      <stop offset="30%"  stop-color="#c084fc"/>
+      <stop offset="55%"  stop-color="#e879f9"/>
+      <stop offset="80%"  stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#d8b4fe"/>
+      <animateTransform attributeName="gradientTransform" type="translate"
+        values="-1 0; 1 0; -1 0" dur="4s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <!-- Wave gradient -->
+    <linearGradient id="waveG" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#7c3aed" stop-opacity="0.6"/>
+      <stop offset="50%"  stop-color="#c084fc" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0.6"/>
+    </linearGradient>
+
+    <!-- Sphere gradient -->
+    <radialGradient id="sphereG" cx="35%" cy="30%" r="65%">
+      <stop offset="0%"   stop-color="#e879f9" stop-opacity="0.9"/>
+      <stop offset="40%"  stop-color="#a855f7" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#4c1d95" stop-opacity="0.4"/>
+    </radialGradient>
+
+    <!-- Cube gradient -->
+    <linearGradient id="cubeG" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#6d28d9"/>
+    </linearGradient>
+
+    <!-- Glow filters -->
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feComposite in="SourceGraphic" in2="b" operator="over"/>
+    </filter>
+    <filter id="glow2" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="10" result="b"/>
+      <feComposite in="SourceGraphic" in2="b" operator="over"/>
+    </filter>
+    <filter id="softglow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feComposite in="SourceGraphic" in2="b" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- ── BACKGROUND ── -->
+  <rect width="860" height="200" rx="16" fill="url(#bg)"/>
+
+  <!-- Subtle grid -->
+  <rect width="860" height="200" rx="16" fill="none"
+    style="background-image: linear-gradient(rgba(168,85,247,0.04) 1px, transparent 1px)"/>
+
+  <!-- Background glow blobs -->
+  <ellipse cx="160" cy="140" rx="180" ry="140" fill="#7c3aed" opacity="0.12" filter="url(#glow2)">
+    <animate attributeName="rx" values="180;200;180" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.12;0.18;0.12" dur="8s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="700" cy="140" rx="160" ry="130" fill="#6d28d9" opacity="0.1" filter="url(#glow2)">
+    <animate attributeName="rx" values="160;180;160" dur="10s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="430" cy="180" rx="300" ry="80" fill="#a855f7" opacity="0.08" filter="url(#glow2)">
+    <animate attributeName="ry" values="80;100;80" dur="7s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- ══════════════════════════════════════ -->
+  <!-- NEURAL BRAIN (left side)              -->
+  <!-- ══════════════════════════════════════ -->
+  <g opacity="0.55" filter="url(#softglow)">
+    <animateTransform attributeName="transform" type="translate"
+      values="0,0; 0,-4; 0,0" dur="6s" repeatCount="indefinite"/>
+    <!-- Brain outline paths -->
+    <path d="M95,80 C80,60 60,65 55,82 C50,95 58,108 70,112 C62,118 58,130 65,140
+             C70,148 80,150 90,147 C88,158 94,168 105,170 C118,172 128,162 128,150
+             C136,158 148,160 158,154 C168,148 170,136 164,126
+             C174,122 180,110 175,98 C170,86 158,82 148,85
+             C144,72 132,64 120,66 C108,68 98,76 95,80Z"
+      fill="none" stroke="#a855f7" stroke-width="1.5" stroke-opacity="0.7"/>
+    <!-- Brain divider -->
+    <path d="M115,68 C115,90 115,120 115,170" fill="none" stroke="#a855f7" stroke-width="1" stroke-opacity="0.4" stroke-dasharray="3,3"/>
+    <!-- Neural nodes -->
+    <circle cx="78"  cy="95"  r="3" fill="#e879f9" opacity="0.8" filter="url(#glow)">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="95"  cy="115" r="2.5" fill="#c084fc" opacity="0.9" filter="url(#glow)">
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="1.8s" repeatCount="indefinite" begin="0.3s"/>
+    </circle>
+    <circle cx="115" cy="90"  r="3" fill="#e879f9" opacity="0.8" filter="url(#glow)">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2.4s" repeatCount="indefinite" begin="0.6s"/>
+    </circle>
+    <circle cx="140" cy="100" r="2.5" fill="#c084fc" opacity="0.9" filter="url(#glow)">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite" begin="0.9s"/>
+    </circle>
+    <circle cx="155" cy="125" r="3" fill="#a855f7" opacity="0.8" filter="url(#glow)">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2.6s" repeatCount="indefinite" begin="0.4s"/>
+    </circle>
+    <circle cx="130" cy="145" r="2.5" fill="#e879f9" opacity="0.9" filter="url(#glow)">
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="1.9s" repeatCount="indefinite" begin="1.2s"/>
+    </circle>
+    <circle cx="100" cy="148" r="3" fill="#c084fc" opacity="0.8" filter="url(#glow)">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.2s" repeatCount="indefinite" begin="0.7s"/>
+    </circle>
+    <circle cx="75"  cy="130" r="2" fill="#a855f7" opacity="0.7" filter="url(#glow)">
+      <animate attributeName="opacity" values="0.3;0.9;0.3" dur="3s" repeatCount="indefinite" begin="1s"/>
+    </circle>
+    <!-- Neural connections -->
+    <line x1="78" y1="95"  x2="95"  y2="115" stroke="#c084fc" stroke-width="0.8" stroke-opacity="0.4">
+      <animate attributeName="stroke-opacity" values="0.2;0.7;0.2" dur="2.1s" repeatCount="indefinite"/>
+    </line>
+    <line x1="95" y1="115" x2="115" y2="90"  stroke="#c084fc" stroke-width="0.8" stroke-opacity="0.4">
+      <animate attributeName="stroke-opacity" values="0.2;0.7;0.2" dur="1.8s" repeatCount="indefinite" begin="0.3s"/>
+    </line>
+    <line x1="115" y1="90" x2="140" y2="100" stroke="#a855f7" stroke-width="0.8" stroke-opacity="0.4">
+      <animate attributeName="stroke-opacity" values="0.2;0.7;0.2" dur="2.4s" repeatCount="indefinite" begin="0.6s"/>
+    </line>
+    <line x1="140" y1="100" x2="155" y2="125" stroke="#c084fc" stroke-width="0.8" stroke-opacity="0.4">
+      <animate attributeName="stroke-opacity" values="0.2;0.7;0.2" dur="2s" repeatCount="indefinite" begin="0.9s"/>
+    </line>
+    <line x1="155" y1="125" x2="130" y2="145" stroke="#a855f7" stroke-width="0.8" stroke-opacity="0.4">
+      <animate attributeName="stroke-opacity" values="0.2;0.7;0.2" dur="2.6s" repeatCount="indefinite" begin="0.4s"/>
+    </line>
+    <line x1="130" y1="145" x2="100" y2="148" stroke="#c084fc" stroke-width="0.8" stroke-opacity="0.4">
+      <animate attributeName="stroke-opacity" values="0.2;0.7;0.2" dur="1.9s" repeatCount="indefinite" begin="1.2s"/>
+    </line>
+    <line x1="100" y1="148" x2="75"  y2="130" stroke="#a855f7" stroke-width="0.8" stroke-opacity="0.4">
+      <animate attributeName="stroke-opacity" values="0.2;0.7;0.2" dur="2.2s" repeatCount="indefinite" begin="0.7s"/>
+    </line>
+    <line x1="75"  y1="130" x2="78"  y2="95"  stroke="#c084fc" stroke-width="0.8" stroke-opacity="0.4">
+      <animate attributeName="stroke-opacity" values="0.2;0.7;0.2" dur="3s" repeatCount="indefinite" begin="1s"/>
+    </line>
+    <line x1="95"  y1="115" x2="130" y2="145" stroke="#e879f9" stroke-width="0.6" stroke-opacity="0.3">
+      <animate attributeName="stroke-opacity" values="0.1;0.5;0.1" dur="3.2s" repeatCount="indefinite" begin="0.5s"/>
+    </line>
+    <!-- Signal pulse travelling along connection -->
+    <circle cx="78" cy="95" r="2" fill="#fff" opacity="0" filter="url(#glow)">
+      <animate attributeName="cx" values="78;155" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="95;125" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.9;0" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="130" cy="145" r="2" fill="#e879f9" opacity="0" filter="url(#glow)">
+      <animate attributeName="cx" values="130;78" dur="2.5s" repeatCount="indefinite" begin="1s"/>
+      <animate attributeName="cy" values="145;95"  dur="2.5s" repeatCount="indefinite" begin="1s"/>
+      <animate attributeName="opacity" values="0;1;0" dur="2.5s" repeatCount="indefinite" begin="1s"/>
+    </circle>
+  </g>
+
+  <!-- ══════════════════════════════════════ -->
+  <!-- GLOWING SPHERE (right side)           -->
+  <!-- ══════════════════════════════════════ -->
+  <g>
+    <animateTransform attributeName="transform" type="translate"
+      values="0,0; 0,-6; 0,0" dur="5s" repeatCount="indefinite"/>
+    <!-- Outer glow -->
+    <circle cx="780" cy="80" r="45" fill="#7c3aed" opacity="0.15" filter="url(#glow2)">
+      <animate attributeName="r" values="45;55;45" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Main sphere -->
+    <circle cx="780" cy="80" r="32" fill="url(#sphereG)" filter="url(#softglow)"/>
+    <!-- Sphere shine -->
+    <ellipse cx="768" cy="66" rx="10" ry="7" fill="white" opacity="0.25"/>
+    <ellipse cx="765" cy="63" rx="4"  ry="3" fill="white" opacity="0.4"/>
+    <!-- Sphere edge highlight -->
+    <circle cx="780" cy="80" r="32" fill="none" stroke="rgba(232,121,249,0.4)" stroke-width="1"/>
+    <animate attributeName="opacity" values="0.9;1;0.9" dur="3s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- ══════════════════════════════════════ -->
+  <!-- NETWORK GLOBE (right side lower)      -->
+  <!-- ══════════════════════════════════════ -->
+  <g opacity="0.5" filter="url(#softglow)">
+    <animateTransform attributeName="transform" type="translate"
+      values="0,0; 0,-3; 0,0" dur="7s" repeatCount="indefinite"/>
+    <!-- Globe circle -->
+    <circle cx="770" cy="200" r="52" fill="none" stroke="#a855f7" stroke-width="1" stroke-opacity="0.5"/>
+    <!-- Latitude lines -->
+    <ellipse cx="770" cy="200" rx="52" ry="16" fill="none" stroke="#a855f7" stroke-width="0.8" stroke-opacity="0.35"/>
+    <ellipse cx="770" cy="185" rx="48" ry="12" fill="none" stroke="#a855f7" stroke-width="0.6" stroke-opacity="0.25"/>
+    <ellipse cx="770" cy="215" rx="48" ry="12" fill="none" stroke="#a855f7" stroke-width="0.6" stroke-opacity="0.25"/>
+    <!-- Longitude lines -->
+    <ellipse cx="770" cy="200" rx="20" ry="52" fill="none" stroke="#a855f7" stroke-width="0.8" stroke-opacity="0.3"/>
+    <ellipse cx="770" cy="200" rx="40" ry="52" fill="none" stroke="#a855f7" stroke-width="0.6" stroke-opacity="0.2"/>
+    <!-- Globe dots -->
+    <circle cx="748" cy="183" r="2" fill="#c084fc" opacity="0.8">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="792" cy="196" r="2" fill="#e879f9" opacity="0.8">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.5s" repeatCount="indefinite" begin="0.5s"/>
+    </circle>
+    <circle cx="760" cy="218" r="1.5" fill="#c084fc" opacity="0.7">
+      <animate attributeName="opacity" values="0.3;0.9;0.3" dur="3s" repeatCount="indefinite" begin="1s"/>
+    </circle>
+    <!-- Connecting lines on globe -->
+    <line x1="748" y1="183" x2="792" y2="196" stroke="#c084fc" stroke-width="0.7" stroke-opacity="0.3">
+      <animate attributeName="stroke-opacity" values="0.1;0.5;0.1" dur="2s" repeatCount="indefinite"/>
+    </line>
+    <line x1="792" y1="196" x2="760" y2="218" stroke="#a855f7" stroke-width="0.7" stroke-opacity="0.3">
+      <animate attributeName="stroke-opacity" values="0.1;0.5;0.1" dur="2.5s" repeatCount="indefinite" begin="0.5s"/>
+    </line>
+  </g>
+
+  <!-- ══════════════════════════════════════ -->
+  <!-- FLOATING CUBE (left bottom)           -->
+  <!-- ══════════════════════════════════════ -->
+  <g>
+    <animateTransform attributeName="transform" type="translate"
+      values="0,0; 0,-8; 0,0" dur="4s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="rotate"
+      values="0 50 155; 15 50 155; 0 50 155" dur="8s" repeatCount="indefinite" additive="sum"/>
+    <!-- Cube faces -->
+    <!-- Front face -->
+    <polygon points="30,140 70,140 70,175 30,175" fill="url(#cubeG)" opacity="0.7"/>
+    <!-- Top face -->
+    <polygon points="30,140 50,125 90,125 70,140" fill="#c084fc" opacity="0.5"/>
+    <!-- Right face -->
+    <polygon points="70,140 90,125 90,160 70,175" fill="#6d28d9" opacity="0.6"/>
+    <!-- Cube edges -->
+    <polygon points="30,140 70,140 70,175 30,175" fill="none" stroke="#c084fc" stroke-width="1" stroke-opacity="0.6"/>
+    <polygon points="30,140 50,125 90,125 70,140" fill="none" stroke="#c084fc" stroke-width="1" stroke-opacity="0.5"/>
+    <polygon points="70,140 90,125 90,160 70,175" fill="none" stroke="#a855f7" stroke-width="1" stroke-opacity="0.5"/>
+    <!-- Cube glow -->
+    <polygon points="30,140 70,140 70,175 30,175 50,125 90,125 90,160"
+      fill="none" stroke="#e879f9" stroke-width="0.5" stroke-opacity="0.3" filter="url(#glow)"/>
+  </g>
+
+  <!-- Small floating dots around cube -->
+  <circle cx="18" cy="130" r="2.5" fill="#c084fc" opacity="0.6" filter="url(#glow)">
+    <animate attributeName="cy" values="130;120;130" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.4;0.8;0.4" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="100" cy="158" r="2" fill="#a855f7" opacity="0.5" filter="url(#glow)">
+    <animate attributeName="cy" values="158;148;158" dur="4s" repeatCount="indefinite" begin="1s"/>
+  </circle>
+
+  <!-- ══════════════════════════════════════ -->
+  <!-- ANIMATED WAVES (bottom)               -->
+  <!-- ══════════════════════════════════════ -->
+  <!-- Wave 1 - back -->
+  <path d="M0,172 C120,158 200,178 320,168 C440,158 520,175 640,166 C760,157 820,172 860,165"
+    fill="none" stroke="#7c3aed" stroke-width="1.5" stroke-opacity="0.3">
+    <animate attributeName="d"
+      values="
+        M0,172 C120,158 200,178 320,168 C440,158 520,175 640,166 C760,157 820,172 860,165;
+        M0,165 C120,255 200,242 320,252 C440,260 520,246 640,254 C760,262 820,248 860,254;
+        M0,172 C120,158 200,178 320,168 C440,158 520,175 640,166 C760,157 820,172 860,165"
+      dur="8s" repeatCount="indefinite"/>
+  </path>
+  <!-- Wave 2 - mid -->
+  <path d="M0,180 C100,168 180,184 300,175 C420,166 500,182 620,174 C740,166 810,180 860,174"
+    fill="none" stroke="#a855f7" stroke-width="2" stroke-opacity="0.45">
+    <animate attributeName="d"
+      values="
+        M0,180 C100,168 180,184 300,175 C420,166 500,182 620,174 C740,166 810,180 860,174;
+        M0,174 C100,182 180,170 300,180 C420,188 500,174 620,182 C740,190 810,176 860,182;
+        M0,180 C100,168 180,184 300,175 C420,166 500,182 620,174 C740,166 810,180 860,174"
+      dur="6s" repeatCount="indefinite"/>
+  </path>
+  <!-- Wave 3 - front bright -->
+  <path d="M0,186 C110,176 190,190 310,182 C430,174 510,188 630,181 C750,174 820,187 860,182"
+    fill="none" stroke="url(#waveG)" stroke-width="2.5">
+    <animate attributeName="d"
+      values="
+        M0,186 C110,176 190,190 310,182 C430,174 510,188 630,181 C750,174 820,187 860,182;
+        M0,182 C110,190 190,177 310,188 C430,196 510,182 630,189 C750,196 820,183 860,189;
+        M0,186 C110,176 190,190 310,182 C430,174 510,188 630,181 C750,174 820,187 860,182"
+      dur="5s" repeatCount="indefinite"/>
+  </path>
+  <!-- Wave glow dots -->
+  <circle cx="200" cy="182" r="2.5" fill="#c084fc" opacity="0.8" filter="url(#glow)">
+    <animate attributeName="cy" values="182;175;182" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="430" cy="180" r="2" fill="#e879f9" opacity="0.7" filter="url(#glow)">
+    <animate attributeName="cy" values="180;188;180" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="660" cy="178" r="2.5" fill="#818cf8" opacity="0.8" filter="url(#glow)">
+    <animate attributeName="cy" values="178;185;178" dur="4.5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Scattered sparkle dots in bg -->
+  <circle cx="200" cy="40"  r="2"   fill="#c084fc" opacity="0"><animate attributeName="opacity" values="0;0.6;0" dur="3s"   repeatCount="indefinite" begin="0s"/></circle>
+  <circle cx="350" cy="25"  r="1.5" fill="white"   opacity="0"><animate attributeName="opacity" values="0;0.5;0" dur="4s"   repeatCount="indefinite" begin="1s"/></circle>
+  <circle cx="500" cy="35"  r="1.5" fill="#e879f9" opacity="0"><animate attributeName="opacity" values="0;0.6;0" dur="2.5s" repeatCount="indefinite" begin="0.5s"/></circle>
+  <circle cx="650" cy="20"  r="2"   fill="white"   opacity="0"><animate attributeName="opacity" values="0;0.5;0" dur="3.5s" repeatCount="indefinite" begin="1.5s"/></circle>
+  <circle cx="300" cy="160" r="1.5" fill="#a855f7" opacity="0"><animate attributeName="opacity" values="0;0.5;0" dur="4s"   repeatCount="indefinite" begin="2s"/></circle>
+  <circle cx="550" cy="165" r="2"   fill="#c084fc" opacity="0"><animate attributeName="opacity" values="0;0.6;0" dur="3s"   repeatCount="indefinite" begin="0.8s"/></circle>
+
+  <!-- ══════════════════════════════════════ -->
+  <!-- MAIN CONTENT                          -->
+  <!-- ══════════════════════════════════════ -->
+
+  <!-- Open to opportunities pill -->
+  <rect x="304" y="22" width="252" height="24" rx="12"
+    fill="rgba(168,85,247,0.08)" stroke="rgba(168,85,247,0.3)" stroke-width="1"/>
+  <circle cx="322" cy="34" r="5" fill="#4ade80" filter="url(#glow)">
+    <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="448" y="39" text-anchor="middle"
+    font-family="'Segoe UI', system-ui, sans-serif"
+    font-size="10" font-weight="700" letter-spacing="2"
+    fill="rgba(192,132,252,0.85)">OPEN TO OPPORTUNITIES</text>
+
+  <!-- Main name -->
+  <text x="430" y="115" text-anchor="middle"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="72" font-weight="800" letter-spacing="-2"
+    fill="url(#nameGrad)" filter="url(#glow)">
+    Humera Mahreen
+  </text>
+  <!-- Name glow layer -->
+  <text x="430" y="115" text-anchor="middle"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="72" font-weight="800" letter-spacing="-2"
+    fill="rgba(192,132,252,0.15)" filter="url(#glow2)">
+    Humera Mahreen
+  </text>
+
+  <!-- Tagline -->
+  <text x="430" y="148" text-anchor="middle"
+    font-family="'Segoe UI', system-ui, sans-serif"
+    font-size="13" font-weight="400" letter-spacing="1.5"
+    fill="rgba(196,168,255,0.55)">
+    Applied AI  &#183;  GenAI  &#183;  Agentic AI Explorer
+  </text>
+
+
+  <!-- Bottom scan bar -->
+  <rect x="0" y="197" width="860" height="2" rx="1">
+    <animate attributeName="fill" values="#7c3aed;#c084fc;#e879f9;#818cf8;#7c3aed" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;0.9;0.5" dur="4s" repeatCount="indefinite"/>
+  </rect>
+</svg>
