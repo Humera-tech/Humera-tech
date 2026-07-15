@@ -38,7 +38,7 @@ humera = {
 
 -  Passionate about building intelligent systems using AI & Machine Learning.
 - Currently building ML + GenAI projects while improving deployment and system design skills.
-- Focused on creating projects that combine technology, usability, and impact
+- Focused on creating projects that combine technology, usability, and impact.
 - Continuously learning through hands-on projects and experimentation
 
 ---
