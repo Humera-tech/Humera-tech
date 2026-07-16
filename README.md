@@ -39,7 +39,7 @@ humera = {
 -  Passionate about building intelligent systems using AI & Machine Learning.
 - Currently building ML + GenAI projects while improving deployment and system design skills.
 - Focused on creating projects that combine technology, usability, and impact.
-- Continuously learning through hands-on projects and experimentation.
+- Continuously learning through hands-on projects.
 
 ---
 
@@ -62,50 +62,17 @@ humera = {
 
 <div align="center">
 
-###  AI & Machine Learning
+<div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow" />
-
-<br><br>
-
-<img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white" />
-<img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
-<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
-<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
-<img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white" />
-
-</div>
+| 🤖 AI & Machine Learning | 🌐 Frontend Development | ⚙️ Backend & APIs |
+|:------------------------:|:----------------------:|:-----------------:|
+| <br><img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow&perline=3" /><br><br><img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white" /><br><img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" /><br><img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" /><br><img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" /><br><img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white" /> | <br><img src="https://skillicons.dev/icons?i=html,css,js,react,vite,tailwind,bootstrap&perline=4" /><br> | <br><img src="https://skillicons.dev/icons?i=flask,sqlite&perline=2" /><br><br><img src="https://techstack-generator.vercel.app/restapi-icon.svg" width="55" /> |
 
 <br>
 
-<div align="center">
-
-###  Frontend Development
-
-<img src="https://skillicons.dev/icons?i=html,css,js,tailwind,bootstrap,react,vite" />
-
-</div>
-<div align="center">
-
-### Backend Development & Databases
-
-<img src="https://skillicons.dev/icons?i=flask,sqlite" />
-<img src="https://techstack-generator.vercel.app/restapi-icon.svg" width="65" height="65" alt="REST API" />
-
-</div>
-
-<br>
-
-<div align="center">
-
-###  Tools & Deployment
-
-<img src="https://skillicons.dev/icons?i=git,github,docker,figma,vscode,postman,netlify" />
-
-<br><br>
-
-<img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=000" />
-<img src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white" />
+| ☁️ DevOps & Deployment |  Developer Tools |
+|:----------------------:|:-----------------:|
+| <br><img src="https://skillicons.dev/icons?i=git,github,docker,netlify&perline=4" /><br><br><img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=000" /> | <br><img src="https://skillicons.dev/icons?i=vscode,postman,figma&perline=3" /><br><br><img src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white" /> 
 
 </div>
 
