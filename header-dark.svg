@@ -296,16 +296,6 @@
   <!-- MAIN CONTENT                          -->
   <!-- ══════════════════════════════════════ -->
 
-  <!-- Open to opportunities pill -->
-  <rect x="304" y="22" width="252" height="24" rx="12"
-    fill="rgba(168,85,247,0.08)" stroke="rgba(168,85,247,0.3)" stroke-width="1"/>
-  <circle cx="322" cy="34" r="5" fill="#4ade80" filter="url(#glow)">
-    <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
-  </circle>
-  <text x="448" y="39" text-anchor="middle"
-    font-family="'Segoe UI', system-ui, sans-serif"
-    font-size="10" font-weight="700" letter-spacing="2"
-    fill="rgba(192,132,252,0.85)">OPEN TO OPPORTUNITIES</text>
 
   <!-- Main name -->
   <text x="430" y="115" text-anchor="middle"
