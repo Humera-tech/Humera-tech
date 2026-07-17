@@ -26,7 +26,7 @@
 ```python
 humera = {
     "role": "Applied AI & ML Explorer",
-    "focus": "Learning GenAI systems and building AI/ML projects",
+    "focus": "Learning GenAI systems and building AI/ML projects".
     "learning": ["Machine Learning", "Deep Learning", "LLMs basics"],
     "interests": ["Applied AI", "GenAI", "Agentic AI (exploring)"],
     "currently_building": "small AI/ML projects using Python and LLM APIs",
