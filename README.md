@@ -25,13 +25,13 @@
 
 ```python
 humera = {
-    "role": "Applied AI & ML Explorer",
+    "role": "Applied AI & ML Explorer".
     "focus": "Learning GenAI systems and building AI/ML projects".
-    "learning": ["Machine Learning", "Deep Learning", "LLMs basics"],
+    "learning": ["Machine Learning", "Deep Learning", "LLMs basics"].
     "interests": ["Applied AI", "GenAI", "Agentic AI (exploring)"],
     "currently_building": "small AI/ML projects using Python and LLM APIs",
     "stack": ["Python", "basic ML libraries", "LLM APIs"],
-    "mindset": "Learn deeply • Build consistently • Improve step by step"
+    "mindset": "Learn deeply • Build consistently • Improve step by step".
 }
 ```
 
