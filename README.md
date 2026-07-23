@@ -53,17 +53,19 @@
 
 <div align="center">
 
+
+
 <div align="center">
 
-|  AI & Machine Learning |  Frontend Development |  Backend & APIs |
-|:------------------------:|:----------------------:|:-----------------:|
-| <br><img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow&perline=3" /><br><br><img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white" /><br><img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" /><br><img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" /><br><img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" /><br><img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white" /> | <br><img src="https://skillicons.dev/icons?i=html,css,js,react,vite,tailwind,bootstrap&perline=4" /><br> | <br><img src="https://skillicons.dev/icons?i=flask,sqlite&perline=2" /><br><br><img src="https://techstack-generator.vercel.app/restapi-icon.svg" width="55" /> |
+|  AI & Machine Learning |  Web Development |  Backend & APIs |
+|:------------------------:|:------------------:|:-----------------:|
+| <br><img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,opencv&perline=4" /><br><br><img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white" /><br><img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" /><br><img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" /><br><img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" /><br><img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white" /> | <br><img src="https://skillicons.dev/icons?i=html,css,js,react,vite,tailwind,bootstrap&perline=4" /><br><br><img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" /> | <br><img src="https://skillicons.dev/icons?i=flask,sqlite,fastapi&perline=3" /><br><br><img src="https://techstack-generator.vercel.app/restapi-icon.svg" width="55" /> |
 
 <br>
 
-|  DevOps & Deployment |  Developer Tools |
+|  DevOps & Deployment |  Developer Tools | 
 |:----------------------:|:-----------------:|
-| <br><img src="https://skillicons.dev/icons?i=git,github,docker,netlify&perline=4" /><br><br><img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=000" /> | <br><img src="https://skillicons.dev/icons?i=vscode,postman,figma&perline=3" /><br><br><img src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white" /> 
+| <br><img src="https://skillicons.dev/icons?i=git,github,docker,netlify&perline=4" /><br><br><img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black" /> | <br><img src="https://skillicons.dev/icons?i=vscode,postman,figma&perline=3" /><br><br><img src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white" /> |
 
 </div>
 
