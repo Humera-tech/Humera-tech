@@ -23,23 +23,11 @@
   <img src="./aboutme-banner.svg" alt="Tech Stack" width="100%" />
 </div>
 
-```python
-humera = {
-    "role": "Applied AI & ML Explorer".
-    "focus": "Learning GenAI systems and building AI/ML projects".
-    "learning": ["Machine Learning", "Deep Learning", "LLMs basics"].
-    "interests": ["Applied AI", "GenAI", "Agentic AI (exploring)"],
-    "currently_building": "small AI/ML projects using Python and LLM APIs",
-    "stack": ["Python", "basic ML libraries", "LLM APIs"],
-    "mindset": "Learn deeply • Build consistently • Improve step by step".
-}
-```
+I'm a Computer Science student passionate about Artificial Intelligence and Machine Learning.
 
+I'm currently building AI and ML projects with Python while exploring Deep Learning, Generative AI, LLMs, and Agentic AI.
 
--  Passionate about building intelligent systems using AI & Machine Learning.
-- Currently building ML + GenAI projects while improving deployment and system design skills.
-- Focused on creating projects that combine technology, usability, and impact.
-- Continuously learning through hands-on projects.
+I enjoy turning ideas into practical applications and continuously learning through hands-on development.
 
 ---
 
