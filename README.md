@@ -22,12 +22,13 @@
 <div align="center">
   <img src="./aboutme-banner.svg" alt="Tech Stack" width="100%" />
 </div>
-<div alighn = 'center'>
-I'm a Computer Science student passionate about Artificial Intelligence and Machine Learning.
 
-I'm currently building AI and ML projects with Python while exploring Deep Learning, Generative AI, LLMs, and Agentic AI.
+<div >
 
-I enjoy turning ideas into practical applications and continuously learning through hands-on development.
+  I'm a Computer Science student passionate about Artificial Intelligence and Machine Learning.<br><br>
+  I'm currently building AI and ML projects with Python while exploring Deep Learning, Generative AI, LLMs, and Agentic AI.<br><br>
+  I enjoy turning ideas into practical applications and continuously learning through hands-on development.
+
 </div>
 
 ---
