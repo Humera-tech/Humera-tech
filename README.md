@@ -50,6 +50,7 @@ humera = {
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Humera%20Mahreen-%236A0DAD?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/humera-mahreen-958765329)
 [![Gmail](https://img.shields.io/badge/Gmail-hmahreen3105-%236A0DAD?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hmahreen3105@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-Humera--tech-%236A0DAD?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Humera-tech)
+[![LeetCode](https://img.shields.io/badge/LeetCode-HumeraMahreen-%236A0DAD?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/HumeraMahreen/)
 
 </div>
 
@@ -89,22 +90,6 @@ humera = {
 </div>
 
 <br>
-
-<div align="center">
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Humera-tech&theme=github_dark" width="95%" />
-
-</div>
-
-<br>
-
-<div align="center">
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Humera-tech&theme=github_dark" width="47%" />
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Humera-tech&theme=github_dark" width="47%" />
-
-</div>
 ---
 
 
@@ -114,19 +99,7 @@ humera = {
 
 </div>
 
----
 
-## ✦ LeetCode
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/LeetCode-Problem_Solving-7c3aed?style=for-the-badge&logo=leetcode&logoColor=white" />
-
-<br><br>
-
-[![LeetCode Stats](https://leetcard.jacoblin.cool/HumeraMahreen?font=JetBrains+Mono&ext=heatmap&width=500&border=0&radius=12&colors=0c0620,130d2e,c084fc,e9d5ff,22c55e,a855f7,818cf8,6366f1)](https://leetcode.com/HumeraMahreen)
-
-</div>
 
 ---
 
