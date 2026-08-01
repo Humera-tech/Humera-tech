@@ -71,6 +71,62 @@
 
 ---
 
+<div align="center">
+  <img src="./assets/myprojects-banner.svg" alt="Tech Stack" width="100%" />
+</div>
+
+<table>
+<tr>
+<td width="70%">
+
+## CrashRadar
+**AI-powered Road Accident Detection & Analytics**
+A full-stack accident detection system that runs YOLOv8 vehicle detection with a custom tracker over live and uploaded footage, scoring incidents through a weighted trajectory, deceleration, and collision-overlap model, and surfacing results on a React + Flask dashboard backed by SQLite.
+
+</td>
+<td width="30%" align="center">
+
+### Tech
+`Python`
+`YOLOv8`
+`OpenCV`
+`Flask`
+`React`
+`SQLite`
+<br>
+
+**[Repository](https://github.com/FAYEQA1/CrashRadar)**
+
+</td>
+</tr>
+<tr>
+<td colspan="2"><hr></td>
+</tr>
+<tr>
+<td width="70%">
+
+## Ariadne
+**LLM Agent Benchmark for Active Directory Attack Paths**
+A reproducible benchmark that sets an LLM agent loose in an Active Directory graph to find privilege-escalation paths to Domain Admin on its own, scored against ground-truth paths and directly compared to BloodHound's rule-based approach — including attack paths BloodHound's canonical query structurally can't see.
+
+</td>
+<td width="30%" align="center">
+
+### Tech
+`Python`
+`LLMs`
+`Neo4j`
+`Graph Analysis`
+<br>
+
+**[Repository](https://github.com/Crepco/Ariadne)**
+
+</td>
+</tr>
+</table>
+
+
+---
 
 <div align="center">
   <img src="./assets/githubstats-bannerm.svg" alt="GitHub Stats" width="100%" />
