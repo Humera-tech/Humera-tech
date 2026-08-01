@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="180" viewBox="0 0 860 180">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e0520"/>
+      <stop offset="100%" stop-color="#160a30"/>
+    </linearGradient>
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#d8b4fe"/>
+      <stop offset="40%"  stop-color="#c084fc"/>
+      <stop offset="70%"  stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#d8b4fe"/>
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="transparent"/>
+      <stop offset="30%"  stop-color="#6d28d9" stop-opacity="0.6"/>
+      <stop offset="50%"  stop-color="#a855f7" stop-opacity="0.9"/>
+      <stop offset="70%"  stop-color="#6d28d9" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </linearGradient>
+    <linearGradient id="accentL" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#7c3aed" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </linearGradient>
+    <linearGradient id="accentR" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="transparent"/>
+      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0.8"/>
+    </linearGradient>
+    <filter id="textGlow" x="-10%" y="-40%" width="120%" height="180%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feComposite in="SourceGraphic" in2="b" operator="over"/>
+    </filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(139,92,246,0.12)" stroke-width="0.8"/>
+  </pattern>
+</defs>
+
+  <!-- Background -->
+  <rect width="860" height="180" rx="12" fill="url(#bg)"/>
+
+  <rect width="860" height="180" rx="12" fill="url(#grid)"/>
+
+  <!-- Subtle top border -->
+  <rect x="0" y="0" width="860" height="1" rx="0" fill="url(#lineGrad)" opacity="0.5"/>
+
+  <!-- Left accent bar -->
+  <rect x="0" y="0" width="3" height="180" rx="1" fill="url(#accentL)"/>
+  <!-- Right accent bar -->
+  <rect x="857" y="0" width="3" height="180" rx="1" fill="url(#accentR)"/>
+
+
+
+  <!-- Corner marks — minimal L-shapes -->
+  <path d="M20,12 L12,12 L12,24" fill="none" stroke="rgba(139,92,246,0.4)" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M840,12 L848,12 L848,24" fill="none" stroke="rgba(139,92,246,0.4)" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M20,168 L12,168 L12,156" fill="none" stroke="rgba(139,92,246,0.3)" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M840,168 L848,168 L848,156" fill="none" stroke="rgba(139,92,246,0.3)" stroke-width="1.2" stroke-linecap="round"/>
+
+  <!-- Main name -->
+  <text x="430" y="98" text-anchor="middle"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="64" font-weight="700" letter-spacing="-1"
+    fill="url(#nameGrad)">
+    <animate attributeName="opacity" values="0;1" dur="0.7s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" values="0,30; 0,0" dur="0.7s" fill="freeze" additive="sum"/>
+    Humera Mahreen
+  </text>
+
+  <!-- Thin divider line under name -->
+  <line x1="280" y1="112" x2="580" y2="112" stroke="rgba(139,92,246,0.25)" stroke-width="0.8"/>
+
+  <!-- Tagline -->
+  <text x="430" y="136" text-anchor="middle"
+    font-family="'Segoe UI', system-ui, sans-serif"
+    font-size="12" font-weight="400" letter-spacing="4"
+    fill="rgba(167,139,250,0.5)">
+    <animate attributeName="opacity" values="0;1" dur="0.8s" begin="0.4s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" values="0,20; 0,0" dur="0.8s" begin="0.4s" fill="freeze" additive="sum"/>
+    APPLIED AI  ·  GENAI  ·  AGENTIC AI EXPLORER
+  </text>
+
+  <!-- Bottom accent line -->
+  <rect x="0" y="179" width="860" height="1" fill="url(#lineGrad)" opacity="0.4">
+
+  </rect>
+</svg>
