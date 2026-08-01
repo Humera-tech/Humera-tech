@@ -23,33 +23,24 @@
   <img src="./aboutme-banner.svg" alt="Tech Stack" width="100%" />
 </div>
 
-```python
-humera = {
-    "role": "Applied AI & ML Explorer",
-    "focus": "Learning GenAI systems and building AI/ML projects",
-    "learning": ["Machine Learning", "Deep Learning", "LLMs basics"],
-    "interests": ["Applied AI", "GenAI", "Agentic AI (exploring)"],
-    "currently_building": "small AI/ML projects using Python and LLM APIs",
-    "stack": ["Python", "basic ML libraries", "LLM APIs"],
-    "mindset": "Learn deeply • Build consistently • Improve step by step"
-}
-```
+<div >
 
+  I'm a Computer Science student passionate about Artificial Intelligence and Machine Learning.<br><br>
+  I'm currently building AI and ML projects with Python while exploring Deep Learning, Generative AI, LLMs, and Agentic AI.<br><br>
+  I enjoy turning ideas into practical applications and continuously learning through hands-on development
 
--  Passionate about building intelligent systems using AI & Machine Learning.
-- Currently building ML + GenAI projects while improving deployment and system design skills.
-- Focused on creating projects that combine technology, usability, and impact.
-- Continuously learning through hands-on projects.
+</div>
 
 ---
 
-## ✦ Connect With Me
+##  Connect With Me
 
 <div align="center">
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Humera%20Mahreen-%236A0DAD?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/humera-mahreen-958765329)
 [![Gmail](https://img.shields.io/badge/Gmail-hmahreen3105-%236A0DAD?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hmahreen3105@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-Humera--tech-%236A0DAD?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Humera-tech)
+[![LeetCode](https://img.shields.io/badge/LeetCode-HumeraMahreen-%236A0DAD?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/HumeraMahreen/)
 
 </div>
 
@@ -62,17 +53,19 @@ humera = {
 
 <div align="center">
 
+
+
 <div align="center">
 
-| 🤖 AI & Machine Learning | 🌐 Frontend Development | ⚙️ Backend & APIs |
-|:------------------------:|:----------------------:|:-----------------:|
-| <br><img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow&perline=3" /><br><br><img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white" /><br><img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" /><br><img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" /><br><img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" /><br><img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white" /> | <br><img src="https://skillicons.dev/icons?i=html,css,js,react,vite,tailwind,bootstrap&perline=4" /><br> | <br><img src="https://skillicons.dev/icons?i=flask,sqlite&perline=2" /><br><br><img src="https://techstack-generator.vercel.app/restapi-icon.svg" width="55" /> |
+|  AI & Machine Learning |  Web Development |  Backend & APIs |
+|:------------------------:|:------------------:|:-----------------:|
+| <br><img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,opencv&perline=4" /><br><br><img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white" /><br><img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" /><br><img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" /><br><img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" /><br><img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white" /> | <br><img src="https://skillicons.dev/icons?i=html,css,js,react,vite,tailwind,bootstrap&perline=4" /><br><br><img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" /> | <br><img src="https://skillicons.dev/icons?i=flask,sqlite&perline=3" /><br><br><img src="https://techstack-generator.vercel.app/restapi-icon.svg" width="55" /> |
 
 <br>
 
-| ☁️ DevOps & Deployment |  Developer Tools |
+|  DevOps & Deployment |  Developer Tools | 
 |:----------------------:|:-----------------:|
-| <br><img src="https://skillicons.dev/icons?i=git,github,docker,netlify&perline=4" /><br><br><img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=000" /> | <br><img src="https://skillicons.dev/icons?i=vscode,postman,figma&perline=3" /><br><br><img src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white" /> 
+| <br><img src="https://skillicons.dev/icons?i=git,github,docker,netlify&perline=4" /><br><br><img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black" /> | <br><img src="https://skillicons.dev/icons?i=vscode,postman,figma&perline=3" /><br><br><img src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white" /> |
 
 </div>
 
@@ -90,22 +83,6 @@ humera = {
 
 <br>
 
-<div align="center">
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Humera-tech&theme=github_dark" width="95%" />
-
-</div>
-
-<br>
-
-<div align="center">
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Humera-tech&theme=github_dark" width="47%" />
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Humera-tech&theme=github_dark" width="47%" />
-
-</div>
----
 
 
 <div align="center">
@@ -114,19 +91,7 @@ humera = {
 
 </div>
 
----
 
-## ✦ LeetCode
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/LeetCode-Problem_Solving-7c3aed?style=for-the-badge&logo=leetcode&logoColor=white" />
-
-<br><br>
-
-[![LeetCode Stats](https://leetcard.jacoblin.cool/HumeraMahreen?font=JetBrains+Mono&ext=heatmap&width=500&border=0&radius=12&colors=0c0620,130d2e,c084fc,e9d5ff,22c55e,a855f7,818cf8,6366f1)](https://leetcode.com/HumeraMahreen)
-
-</div>
 
 ---
 
