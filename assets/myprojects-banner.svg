@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="80" viewBox="0 0 860 80">
+  <defs>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#c084fc"/>
+      <stop offset="50%"  stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#e879f9"/>
+    </linearGradient>
+    <linearGradient id="waveGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="transparent"/>
+      <stop offset="25%"  stop-color="#7c3aed"/>
+      <stop offset="50%"  stop-color="#c084fc"/>
+      <stop offset="75%"  stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </linearGradient>
+    <linearGradient id="waveGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="transparent"/>
+      <stop offset="30%"  stop-color="#a855f7" stop-opacity="0.5"/>
+      <stop offset="50%"  stop-color="#818cf8" stop-opacity="0.6"/>
+      <stop offset="70%"  stop-color="#6366f1" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </linearGradient>
+    <linearGradient id="waveGrad3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="transparent"/>
+      <stop offset="20%"  stop-color="#6366f1" stop-opacity="0.25"/>
+      <stop offset="50%"  stop-color="#a855f7" stop-opacity="0.35"/>
+      <stop offset="80%"  stop-color="#7c3aed" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-100%" width="200%" height="300%">
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feComposite in="SourceGraphic" in2="b" operator="over"/>
+    </filter>
+    <filter id="textGlow" x="-20%" y="-60%" width="140%" height="220%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feComposite in="SourceGraphic" in2="b" operator="over"/>
+    </filter>
+  </defs>
+
+  <text x="430" y="26" text-anchor="middle"
+    font-family="'Segoe UI', system-ui, sans-serif"
+    font-size="20" font-weight="800" letter-spacing="4"
+    fill="url(#textGrad)" filter="url(#textGlow)">
+    MY PROJECTS
+    <animate attributeName="opacity" values="0.85;1;0.85" dur="4s" repeatCount="indefinite"/>
+  </text>
+
+  <line x1="60" y1="20" x2="310" y2="20" stroke="url(#waveGrad1)" stroke-width="0.8" opacity="0.4"/>
+  <line x1="550" y1="20" x2="800" y2="20" stroke="url(#waveGrad1)" stroke-width="0.8" opacity="0.4"/>
+
+  <path d="M0,58 C100,42 180,65 280,50 C380,34 440,60 540,46 C640,30 720,54 860,42"
+    fill="none" stroke="url(#waveGrad3)" stroke-width="1.5" opacity="0.6">
+    <animate attributeName="d"
+      values="M0,58 C100,42 180,65 280,50 C380,34 440,60 540,46 C640,30 720,54 860,42;M0,44 C100,60 180,38 280,56 C380,70 440,44 540,58 C640,68 720,42 860,54;M0,58 C100,42 180,65 280,50 C380,34 440,60 540,46 C640,30 720,54 860,42"
+      dur="9s" repeatCount="indefinite"/>
+  </path>
+
+  <path d="M0,64 C80,48 160,68 260,54 C360,38 430,64 530,50 C630,36 730,60 860,48"
+    fill="none" stroke="url(#waveGrad2)" stroke-width="2" filter="url(#glow)" opacity="0.8">
+    <animate attributeName="d"
+      values="M0,64 C80,48 160,68 260,54 C360,38 430,64 530,50 C630,36 730,60 860,48;M0,50 C80,66 160,44 260,62 C360,74 430,48 530,64 C630,74 730,46 860,60;M0,64 C80,48 160,68 260,54 C360,38 430,64 530,50 C630,36 730,60 860,48"
+      dur="7s" repeatCount="indefinite"/>
+  </path>
+
+  <path d="M0,70 C90,54 170,72 270,60 C370,46 440,68 545,55 C645,40 740,64 860,52"
+    fill="none" stroke="url(#waveGrad1)" stroke-width="2.5" filter="url(#glow)">
+    <animate attributeName="d"
+      values="M0,70 C90,54 170,72 270,60 C370,46 440,68 545,55 C645,40 740,64 860,52;M0,54 C90,70 170,48 270,66 C370,78 440,54 545,68 C645,78 740,52 860,66;M0,70 C90,54 170,72 270,60 C370,46 440,68 545,55 C645,40 740,64 860,52"
+      dur="6s" repeatCount="indefinite"/>
+  </path>
+
+  <circle cx="215" cy="60" r="2.5" fill="#818cf8" opacity="0.8" filter="url(#glow)">
+    <animate attributeName="cy" values="60;46;60" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="430" cy="55" r="2" fill="#c084fc" opacity="0.7" filter="url(#glow)">
+    <animate attributeName="cy" values="55;68;55" dur="7s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="650" cy="50" r="2.5" fill="#6366f1" opacity="0.8" filter="url(#glow)">
+    <animate attributeName="cy" values="50;64;50" dur="5s" repeatCount="indefinite"/>
+  </circle>
+</svg>
