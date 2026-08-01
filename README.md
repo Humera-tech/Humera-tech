@@ -4,7 +4,7 @@
 
   <img 
     alt="Humera Mahreen | ML Explorer | AI Enthusiast"
-    src="./header-dark.svg"
+    src="./assets/header-dark.svg"
     width="100%"
   />
 </picture>
@@ -20,7 +20,7 @@
 ---
 
 <div align="center">
-  <img src="./aboutme-banner.svg" alt="Tech Stack" width="100%" />
+  <img src="./assets/aboutme-banner.svg" alt="Tech Stack" width="100%" />
 </div>
 
 <div >
@@ -48,7 +48,7 @@
 
 
 <div align="center">
-  <img src="./techstack-bannerm.svg" alt="Tech Stack" width="100%" />
+  <img src="./assets/techstack-bannerm.svg" alt="Tech Stack" width="100%" />
 </div>
 
 <div align="center">
@@ -73,7 +73,7 @@
 
 
 <div align="center">
-  <img src="./githubstats-bannerm.svg" alt="GitHub Stats" width="100%" />
+  <img src="./assets/githubstats-bannerm.svg" alt="GitHub Stats" width="100%" />
 </div>
 
 <div align="center">
@@ -103,6 +103,6 @@
 
 <br/>
 
-<img src="./waveend.svg" width="100%" />
+<img src="./assets/waveend.svg" width="100%" />
 
 </div>
