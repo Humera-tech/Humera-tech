@@ -22,7 +22,7 @@
 <div align="center">
   <img src="./assets/aboutme-banner.svg" alt="Tech Stack" width="100%" />
 </div>
-
+<div align='center'>
 <div >
 
   I'm a Computer Science student passionate about Artificial Intelligence and Machine Learning.<br><br>
@@ -30,12 +30,15 @@
   I enjoy turning ideas into practical applications and continuously learning through hands-on development
 
 </div>
+<img src="./assets/floating-crystal.svg" alt="Tech Stack" width="100%" />
+</div>
 
 ---
 
 ##  Connect With Me
 
 <div align="center">
+<div><img src="./assets/floating-orb.svg" alt="Tech Stack" width="100%" /></div>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Humera%20Mahreen-%236A0DAD?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/humera-mahreen-958765329)
 [![Gmail](https://img.shields.io/badge/Gmail-hmahreen3105-%236A0DAD?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hmahreen3105@gmail.com)
