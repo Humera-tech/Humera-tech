@@ -4,7 +4,7 @@
 
   <img 
     alt="Humera Mahreen | ML Explorer | AI Enthusiast"
-    src="./assets/headername.svg"
+    src="./assets/header-dark.svg"
     width="100%"
   />
 </picture>
