@@ -27,7 +27,7 @@
 
   I'm a Computer Science student passionate about Artificial Intelligence and Machine Learning.<br><br>
   I'm currently building AI and ML projects with Python while exploring Deep Learning, Generative AI, LLMs, and Agentic AI.<br><br>
-  I enjoy turning ideas into practical applications and continuously learning through hands-on development.
+  I enjoy turning ideas into practical applications and continuously learning through hands-on development
 
 </div>
 
