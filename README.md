@@ -1,8 +1,8 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./newassets/humera_readme_header.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./newassets/Header-name.svg">
   <source media="(prefers-color-scheme: light)" srcset="./header.svg">
   <img
-    src="./newassets/humera_readme_header.svg"
+    src="./newassets/Header-name.svg"
     alt="Humera Mahreen | AI & ML Explorer"
     width="100%"
   />
