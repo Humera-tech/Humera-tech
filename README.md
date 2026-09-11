@@ -1,166 +1,200 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./header-dark.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./newassets/humera_readme_header.svg">
   <source media="(prefers-color-scheme: light)" srcset="./header.svg">
-
-  <img 
-    alt="Humera Mahreen | ML Explorer | AI Enthusiast"
-    src="./assets/header-dark.svg"
+  <img
+    src="./newassets/humera_readme_header.svg"
+    alt="Humera Mahreen | AI & ML Explorer"
     width="100%"
   />
 </picture>
 
-<br/>
-
-<div align="center">
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=3200&pause=900&color=A855F7&center=true&vCenter=true&width=850&lines=Building+intelligent+systems+with+AI;Applied+AI+%7C+Generative+AI+%7C+Agentic+AI;Turning+ideas+into+real-world+AI+applications;Learning+deeply+and+building+consistently;Creating+AI-powered+solutions+for+real-world+problems" alt="Typing SVG" />
-
-</div>
-
----
-
-<div align="center">
-  <img src="./assets/aboutme-banner.svg" alt="Tech Stack" width="100%" />
-</div>
-
-<div >
-
-  I'm a Computer Science student passionate about Artificial Intelligence and Machine Learning.<br><br>
-  I'm currently building AI and ML projects with Python while exploring Deep Learning, Generative AI, LLMs, and Agentic AI.<br><br>
-  I enjoy turning ideas into practical applications and continuously learning through hands-on development.
-
-</div>
-
-
----
-
-##  Connect With Me
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Humera%20Mahreen-%236A0DAD?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/humera-mahreen-958765329)
-[![Gmail](https://img.shields.io/badge/Gmail-hmahreen3105-%236A0DAD?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hmahreen3105@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-Humera--tech-%236A0DAD?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Humera-tech)
-[![LeetCode](https://img.shields.io/badge/LeetCode-HumeraMahreen-%236A0DAD?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/HumeraMahreen/)
-
-</div>
-
----
-
-
-<div align="center">
-  <img src="./assets/techstack-bannerm.svg" alt="Tech Stack" width="100%" />
-</div>
-
-<div align="center">
-
-
-
-<div align="center">
-
-|  AI & Machine Learning |  Web Development |  Backend & APIs |
-|:------------------------:|:------------------:|:-----------------:|
-| <br><img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,opencv&perline=4" /><br><br><img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white" /><br><img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" /><br><img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" /><br><img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" /><br><img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white" /> | <br><img src="https://skillicons.dev/icons?i=html,css,js,react,vite,tailwind,bootstrap&perline=4" /><br><br><img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" /> | <br><img src="https://skillicons.dev/icons?i=flask,sqlite&perline=3" /><br><br><img src="https://techstack-generator.vercel.app/restapi-icon.svg" width="55" /> |
-
 <br>
 
-|  DevOps & Deployment |  Developer Tools | 
-|:----------------------:|:-----------------:|
-| <br><img src="https://skillicons.dev/icons?i=git,github,docker,netlify&perline=4" /><br><br><img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black" /> | <br><img src="https://skillicons.dev/icons?i=vscode,postman,figma&perline=3" /><br><br><img src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white" /> |
-
-</div>
-
----
-
-<div align="center">
-  <img src="./assets/myprojects-banner.svg" alt="Tech Stack" width="100%" />
-</div>
-
-<table>
-<tr>
-<td width="70%">
-
-## CrashRadar
-**AI-powered Road Accident Detection & Analytics**
-A full-stack accident detection system that runs YOLOv8 vehicle detection with a custom tracker over live and uploaded footage, scoring incidents through a weighted trajectory, deceleration, and collision-overlap model, and surfacing results on a React + Flask dashboard backed by SQLite.
-
-</td>
-<td width="30%" align="center">
-
-### Tech
-`Python`
-`YOLOv8`
-`OpenCV`
-`Flask`
-`React`
-`SQLite`
-<br>
-
-**[Repository](https://github.com/FAYEQA1/CrashRadar)**
-
-</td>
-</tr>
-<tr>
-<td colspan="2"><hr></td>
-</tr>
-<tr>
-<td width="70%">
-
-## Ariadne
-**LLM Agent Benchmark for Active Directory Attack Paths**
-A reproducible benchmark that sets an LLM agent loose in an Active Directory graph to find privilege-escalation paths to Domain Admin on its own, scored against ground-truth paths and directly compared to BloodHound's rule-based approach — including attack paths BloodHound's canonical query structurally can't see.
-
-</td>
-<td width="30%" align="center">
-
-### Tech
-`Python`
-`LLMs`
-`Neo4j`
-`Graph Analysis`
-<br>
-
-**[Repository](https://github.com/Crepco/Ariadne)**
-
-</td>
-</tr>
-</table>
-
-
----
-
-<div align="center">
-  <img src="./assets/githubstats-bannerm.svg" alt="GitHub Stats" width="100%" />
-</div>
-
 <div align="center">
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=Humera-tech&theme=shadow-purple&border_radius=5.1)](https://git.io/streak-stats)
+<img
+src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=3200&pause=900&color=F59E0B&center=true&vCenter=true&width=850&lines=Building+intelligent+systems+with+AI;Applied+AI+%7C+Generative+AI+%7C+Agentic+AI;Turning+ideas+into+real-world+AI+applications;Learning+deeply+and+building+consistently"
+alt="Typing SVG"
+/>
+
 </div>
 
 <br>
 
-
-
 <div align="center">
-
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Humera-tech&bg_color=0D1117&color=A855F7&line=6A0DAD&point=ffffff&area=true&hide_border=true)
-
+  <img src="./newassets/section_profile.svg" alt="Profile" width="100%">
 </div>
 
+<br>
 
+I'm a Computer Science student passionate about **Artificial Intelligence and Machine Learning**.
 
----
+Currently exploring **Deep Learning, Generative AI, LLMs, and Agentic AI** while building practical projects with Python.
+
+I enjoy turning ideas into real-world applications and learning through hands-on development.
+
+<br>
 
 <div align="center">
 
-![Profile Views](https://komarev.com/ghpvc/?username=Humera-tech&label=Profile+Views&color=6A0DAD&style=flat-square)
+## Connect With Me
+
+<a href="https://www.linkedin.com/in/humera-mahreen-958765329">
+  <img src="https://img.shields.io/badge/LinkedIn-Humera%20Mahreen-E88A3D?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
 &nbsp;
-[![GitHub Stars](https://custom-icon-badges.demolab.com/github/stars/Humera-tech?color=6A0DAD&style=flat-square&labelColor=4B0082&logo=star&label=Total+Stars)](https://github.com/Humera-tech?tab=repositories&sort=stargazers)
+<a href="mailto:hmahreen3105@gmail.com">
+  <img src="https://img.shields.io/badge/Gmail-hmahreen3105%40gmail.com-E88A3D?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
+&nbsp;
+<a href="https://github.com/Humera-tech">
+  <img src="https://img.shields.io/badge/GitHub-Humera--tech-E88A3D?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+&nbsp;
+<a href="https://leetcode.com/u/HumeraMahreen/">
+  <img src="https://img.shields.io/badge/LeetCode-HumeraMahreen-E88A3D?style=for-the-badge&logo=leetcode&logoColor=white" />
+</a>
+
+</div>
+
+<br>
+
+---
+
+<div align="center">
+  <img src="./newassets/section_tech_stack.svg" alt="Tech Stack" width="100%">
+</div>
+
+<br>
+
+###  AI & Machine Learning
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,opencv&perline=4">
+
+<br><br>
+
+<img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white">
+<img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white">
+<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white">
+<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white">
+<img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white">
+
+</div>
+
+<br>
+
+###  Web Development
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=html,css,js,react,vite,tailwind,bootstrap&perline=7">
+
+<br><br>
+
+<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white">
+
+</div>
+
+<br>
+
+###  Backend & APIs
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=flask,sqlite&perline=4">
+
+  
+
+<img src="https://techstack-generator.vercel.app/restapi-icon.svg" width="55">
+
+</div>
+
+<br>
+
+###  DevOps & Tools
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=git,github,docker,netlify,vscode,postman,figma&perline=7">
+
+<br><br>
+
+<img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black">
+<img src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white">
+
+</div>
+
+<br>
+
+---
+
+<div align="center">
+  <img src="./newassets/section_my_projects.svg" alt="Projects" width="100%">
+</div>
+
+<br>
+
+##  CrashRadar
+
+**AI-powered Road Accident Detection & Analytics**
+
+A full-stack accident detection system using **YOLOv8, custom object tracking, and trajectory-based analysis** to identify potential road accidents from live and uploaded footage.
+
+The system combines weighted **trajectory, deceleration, and collision-overlap analysis** with a React + Flask dashboard backed by SQLite.
+
+**Tech:** `Python` `YOLOv8` `OpenCV` `Flask` `React` `SQLite`
+
+<div align="center">
+
+<a href="https://github.com/FAYEQA1/CrashRadar">
+  <img src="https://img.shields.io/badge/View%20Repository-E88A3D?style=for-the-badge&logo=github&logoColor=white">
+</a>
+
+</div>
+
+<br>
+
+---
+
+##  Ariadne
+
+**LLM Agent Benchmark for Active Directory Attack Paths**
+
+A reproducible benchmark that evaluates whether an **LLM agent can discover privilege-escalation paths** through an Active Directory graph.
+
+It compares agent-based reasoning against **BloodHound's rule-based approach**, including attack paths that traditional queries may not identify.
+
+**Tech:** `Python` `LLMs` `Neo4j` `Graph Analysis`
+
+<div align="center">
+
+<a href="https://github.com/Crepco/Ariadne">
+  <img src="https://img.shields.io/badge/View%20Repository-E88A3D?style=for-the-badge&logo=github&logoColor=white">
+</a>
+
+</div>
+
+<br>
+
+---
+
+<div align="center" style="display: flex; justify-content: center; align-items: center; gap: 8px;">
+
+  <img src="https://komarev.com/ghpvc/?username=Humera-tech&label=Profile+Views&color=E88A3D&style=flat-square">
+
+  <a href="https://github.com/Humera-tech?tab=repositories&sort=stargazers">
+    <img src="https://custom-icon-badges.demolab.com/github/stars/Humera-tech?color=E88A3D&style=flat-square&labelColor=12343B&logo=star&label=Total+Stars">
+  </a>
+
+</div>
 
 
-<br/>
+<br>
 
-<img src="./assets/waveend.svg" width="100%" />
+<div align="center">
+
+<img src="./newassets/section_thanks_footer.svg" width="100%">
 
 </div>
