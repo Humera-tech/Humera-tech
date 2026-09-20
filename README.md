@@ -130,56 +130,6 @@ I enjoy turning ideas into real-world applications and learning through hands-on
 
 ---
 
-<div align="center">
-  <img src="./newassets/section_my_projects.svg" alt="Projects" width="100%">
-</div>
-
-<br>
-
-##  CrashRadar
-
-**AI-powered Road Accident Detection & Analytics**
-
-A full-stack accident detection system using **YOLOv8, custom object tracking, and trajectory-based analysis** to identify potential road accidents from live and uploaded footage.
-
-The system combines weighted **trajectory, deceleration, and collision-overlap analysis** with a React + Flask dashboard backed by SQLite.
-
-**Tech:** `Python` `YOLOv8` `OpenCV` `Flask` `React` `SQLite`
-
-<div align="center">
-
-<a href="https://github.com/FAYEQA1/CrashRadar">
-  <img src="https://img.shields.io/badge/View%20Repository-E88A3D?style=for-the-badge&logo=github&logoColor=white">
-</a>
-
-</div>
-
-<br>
-
----
-
-##  Ariadne
-
-**LLM Agent Benchmark for Active Directory Attack Paths**
-
-A reproducible benchmark that evaluates whether an **LLM agent can discover privilege-escalation paths** through an Active Directory graph.
-
-It compares agent-based reasoning against **BloodHound's rule-based approach**, including attack paths that traditional queries may not identify.
-
-**Tech:** `Python` `LLMs` `Neo4j` `Graph Analysis`
-
-<div align="center">
-
-<a href="https://github.com/Crepco/Ariadne">
-  <img src="https://img.shields.io/badge/View%20Repository-E88A3D?style=for-the-badge&logo=github&logoColor=white">
-</a>
-
-</div>
-
-<br>
-
----
-
 <div align="center" style="display: flex; justify-content: center; align-items: center; gap: 8px;">
 
   <img src="https://komarev.com/ghpvc/?username=Humera-tech&label=Profile+Views&color=E88A3D&style=flat-square">
