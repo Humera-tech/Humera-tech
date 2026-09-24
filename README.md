@@ -31,7 +31,8 @@ I'm a Computer Science student passionate about **Artificial Intelligence and Ma
 
 Currently exploring **Deep Learning, Generative AI, LLMs, and Agentic AI** while building practical projects with Python.
 
-I enjoy turning ideas into real-world applications and learning through hands-on development.
+I enjoy turning ideas into real-world applications and learning through hands-on development
+
 
 
 <br>
