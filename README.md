@@ -148,15 +148,6 @@ I enjoy turning ideas into real-world applications and learning through hands-on
 
 <br><br>
 
-<div align="center">
-  <table>
-    <tr>
-      <td bgcolor="#12343B">
-        <img src="https://ghchart.rshah.org/14B8A6/Humera-tech" alt="Contribution Calendar" width="100%" />
-      </td>
-    </tr>
-  </table>
-</div>
 <br>
 ---
 
