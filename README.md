@@ -149,12 +149,13 @@ I enjoy turning ideas into real-world applications and learning through hands-on
 <br><br>
 
 <br>
+
 ---
 
-<div align="center" style="display: flex; justify-content: center; align-items: center; gap: 8px;">
+<div align="center">
 
-  <img src="https://komarev.com/ghpvc/?username=Humera-tech&label=Profile+Views&color=E88A3D&style=flat-square">
-
+  <img src="https://hits.sh/github.com/Humera-tech.svg?style=flat-square&label=Profile%20Views&color=E88A3D&labelColor=12343B" alt="Profile Views">
+  &nbsp;
   <a href="https://github.com/Humera-tech?tab=repositories&sort=stargazers">
     <img src="https://custom-icon-badges.demolab.com/github/stars/Humera-tech?color=E88A3D&style=flat-square&labelColor=12343B&logo=star&label=Total+Stars">
   </a>
