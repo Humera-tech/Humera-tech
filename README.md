@@ -132,6 +132,29 @@ I enjoy turning ideas into real-world applications and learning through hands-on
 
 ---
 
+<div align="center">
+
+## GitHub Stats
+
+<br>
+
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=Humera-tech&show_icons=true&include_all_commits=true&bg_color=12343B&title_color=E88A3D&icon_color=F59E0B&text_color=E6EDF3&border_color=E88A3D&border_radius=10" alt="GitHub Stats" />
+&nbsp;
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Humera-tech&layout=compact&langs_count=8&bg_color=12343B&title_color=E88A3D&text_color=E6EDF3&border_color=E88A3D&border_radius=10" alt="Top Languages" />
+
+<br><br>
+
+<img src="https://streak-stats.demolab.com?user=Humera-tech&background=12343B&border=E88A3D&stroke=E88A3D&ring=E88A3D&fire=F59E0B&currStreakNum=E6EDF3&currStreakLabel=F59E0B&sideNums=E6EDF3&sideLabels=E88A3D&dates=9CA3AF&border_radius=10" alt="GitHub Streak" />
+
+<br><br>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Humera-tech&bg_color=12343B&color=E6EDF3&line=E88A3D&point=F59E0B&area=true&area_color=E88A3D&title_color=E88A3D&hide_border=true" alt="Contribution Graph" width="100%" />
+
+</div>
+
+<br>
+---
+
 <div align="center" style="display: flex; justify-content: center; align-items: center; gap: 8px;">
 
   <img src="https://komarev.com/ghpvc/?username=Humera-tech&label=Profile+Views&color=E88A3D&style=flat-square">
