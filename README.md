@@ -148,10 +148,16 @@ I enjoy turning ideas into real-world applications and learning through hands-on
 
 <br><br>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Humera-tech&bg_color=12343B&color=E6EDF3&line=E88A3D&point=F59E0B&area=true&area_color=E88A3D&title_color=E88A3D&hide_border=true" alt="Contribution Graph" width="100%" />
-
 </div>
-
+<div align="center">
+  <table>
+    <tr>
+      <td bgcolor="#12343B">
+        <img src="https://ghchart.rshah.org/F59E0B/Humera-tech" alt="Contribution Calendar" width="100%" />
+      </td>
+    </tr>
+  </table>
+</div>
 <br>
 ---
 
