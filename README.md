@@ -33,8 +33,6 @@ Currently exploring **Deep Learning, Generative AI, LLMs, and Agentic AI** while
 
 I enjoy turning ideas into real-world applications and learning through hands-on development.
 
-
-
 <br>
 
 <div align="center">
@@ -69,64 +67,56 @@ I enjoy turning ideas into real-world applications and learning through hands-on
 
 <br>
 
-###  AI & Machine Learning
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,opencv&perline=4">
-
-<br><br>
-
-<img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white">
-<img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white">
-<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white">
-<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white">
-<img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white">
-
-</div>
-
-<br>
-
-###  Web Development
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=html,css,js,react,vite,tailwind,bootstrap&perline=7">
-
-<br><br>
-
-<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white">
-
-</div>
-
-<br>
-
-###  Backend & APIs
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=flask,sqlite&perline=4">
-
-  
-
-<img src="https://techstack-generator.vercel.app/restapi-icon.svg" width="55">
-
-</div>
-
-<br>
-
-###  DevOps & Tools
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=git,github,docker,netlify,vscode,postman,figma&perline=7">
-
-<br><br>
-
-<img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black">
-<img src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white">
-
-</div>
+<table align="center">
+  <tr>
+    <td align="center" valign="top" width="50%">
+      <br>
+      <b>🧠&nbsp; AI & MACHINE LEARNING</b>
+      <br><br>
+      <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,opencv,sklearn&perline=5" alt="AI and ML" />
+      <br><br>
+      <img src="https://img.shields.io/badge/Keras-12343B?style=for-the-badge&logo=keras&logoColor=F59E0B" />
+      <img src="https://img.shields.io/badge/NumPy-12343B?style=for-the-badge&logo=numpy&logoColor=F59E0B" />
+      <img src="https://img.shields.io/badge/Pandas-12343B?style=for-the-badge&logo=pandas&logoColor=F59E0B" />
+      <img src="https://img.shields.io/badge/Matplotlib-12343B?style=for-the-badge&logo=python&logoColor=F59E0B" />
+      <br><br>
+    </td>
+    <td align="center" valign="top" width="50%">
+      <br>
+      <b>🌐&nbsp; WEB DEVELOPMENT</b>
+      <br><br>
+      <img src="https://skillicons.dev/icons?i=html,css,js,react&perline=4" alt="Web" />
+      <br>
+      <img src="https://skillicons.dev/icons?i=vite,tailwind,bootstrap&perline=3" alt="Web tools" />
+      <br><br>
+      <img src="https://img.shields.io/badge/Streamlit-12343B?style=for-the-badge&logo=streamlit&logoColor=F59E0B" />
+      <br><br>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" valign="top" width="50%">
+      <br>
+      <b>⚙️&nbsp; BACKEND & APIs</b>
+      <br><br>
+      <img src="https://skillicons.dev/icons?i=flask,sqlite&perline=2" alt="Backend" />
+      <br><br>
+      <img src="https://img.shields.io/badge/REST%20APIs-12343B?style=for-the-badge&logo=openapiinitiative&logoColor=F59E0B" />
+      <br><br>
+    </td>
+    <td align="center" valign="top" width="50%">
+      <br>
+      <b>🛠️&nbsp; DEVOPS & TOOLS</b>
+      <br><br>
+      <img src="https://skillicons.dev/icons?i=git,github,docker,netlify&perline=4" alt="DevOps" />
+      <br>
+      <img src="https://skillicons.dev/icons?i=vscode,postman,figma&perline=3" alt="Tools" />
+      <br><br>
+      <img src="https://img.shields.io/badge/Render-12343B?style=for-the-badge&logo=render&logoColor=F59E0B" />
+      <img src="https://img.shields.io/badge/Canva-12343B?style=for-the-badge&logo=canva&logoColor=F59E0B" />
+      <br><br>
+    </td>
+  </tr>
+</table>
 
 <br>
 
@@ -146,7 +136,7 @@ I enjoy turning ideas into real-world applications and learning through hands-on
 
 <img src="https://streak-stats.demolab.com?user=Humera-tech&background=12343B&border=E88A3D&stroke=E88A3D&ring=E88A3D&fire=F59E0B&currStreakNum=E6EDF3&currStreakLabel=F59E0B&sideNums=E6EDF3&sideLabels=E88A3D&dates=9CA3AF&border_radius=10" alt="GitHub Streak" />
 
-<br><br>
+</div>
 
 <br>
 
@@ -161,7 +151,6 @@ I enjoy turning ideas into real-world applications and learning through hands-on
   </a>
 
 </div>
-
 
 <br>
 
